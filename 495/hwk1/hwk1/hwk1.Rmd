@@ -1,0 +1,132 @@
+Homework 1 TrinadhGupta
+========================================================
+
+This is a simple example showing a social network dataset and some
+operations performed on it in R. For Homework 1, you just have to get this markdown file to run.
+
+Setup
+--------------------------------------------------------
+
+The "sand" package loads igraph and all the associated packages.
+
+```
+library("sand")
+```
+
+```{r setup, include=FALSE}
+library("sand")
+```
+
+The Data
+-----------------------------------------------
+
+Next we need to load the data file. This file can be obtained from the
+Pajek website or from D2L.
+
+```{r loading}
+setwd("C:/Users/TG/OneDrive/Documents/CSC 495/hwk1/hwk1")
+dtp <- read.graph("dining.net", format="pajek")
+dtp
+```
+
+Find the names associated with each vertex.
+
+```{r labels}
+list.vertex.attributes(dtp)
+V(dtp)$id
+```
+
+Let's plot with the labels. I use an expansion factor of 0.6 for the arrows because otherwise they are too huge:
+
+
+```{r plot, fig.width=7, fig.height=6}
+plot(dtp, vertex.label=V(dtp)$id, edge.arrow.size=0.6, 
+     layout=layout.kamada.kawai)
+```
+
+Sizing by Degree
+---------------------------------------------
+
+The degree of nodes is important. In this network, in-degree is important because it shows what nodes are popular among their peers. Because of the way the data was collected, all nodes have the same out-degree (2).
+
+```{r degree}
+dtp.deg <- degree(dtp, mode="in")
+
+table(dtp.deg)
+
+```
+
+Try plotting again, with the vertices sized by in-degree. 
+
+```{r vertex-size, fig.width=7, fig.height=6}
+plot(dtp, vertex.label=V(dtp)$id, edge.arrow.size=0.6, 
+     layout=layout.kamada.kawai, vertex.size=dtp.deg*4)
+```
+
+The big vertices are too big and the small ones, too small. (Some have in-degree 0.)
+
+How about multiplying by 2 and adding 5. Then the range will be 5 to 17 instead of 0 to 24.
+
+```{r smaller, fig.width=7, fig.height=6}
+dtp.size <- dtp.deg * 2 + 5
+
+plot(dtp, vertex.label=V(dtp)$id, edge.arrow.size=0.6, 
+     layout=layout.kamada.kawai, vertex.size=dtp.size)
+```
+
+Edge Information
+--------------------------------------------
+Put edge weights into a vector
+
+```{r edge-atts}
+list.edge.attributes(dtp)
+dtp.pref <- E(dtp)$weight
+table(dtp.pref)
+```
+
+The "1" attribute means first choice and "2" means second choice. So, really, we want to emphasize the "1" edges and de-emphasizes the "2" edges. We can accomplish this with a calculation 4/wt^2. This means that second choice edges will have weight 1 and first choice edges weight 4.
+
+```{r edge-weights}
+dtp.wt <- 4 / (E(dtp)$weight*E(dtp)$weight)
+
+plot(dtp, vertex.label=V(dtp)$id, edge.arrow.size=0.6, 
+     layout=layout.kamada.kawai, vertex.size=dtp.size,
+     edge.width=dtp.wt)
+```
+
+Coordinate Matrix
+-------------------------------------------
+
+It turns out that the authors included x and y positions for the vertices. Let's use those. 
+
+```{r fixed-layout}
+xc <- V(dtp)$"x"*2.0
+yc <- V(dtp)$"y"*2.0
+# Put X and y coordinates together into a coordinate matrix.
+mcoord <- cbind(xc, yc)
+
+plot(dtp, vertex.label=V(dtp)$id, edge.arrow.size=0.6, 
+     layout=mcoord, vertex.size=dtp.size,
+     edge.width=dtp.wt)
+```
+Clustering
+------------------------------------------------
+
+Finally, let's do some clustering. We'll convert to an undirected graph, because most clustering algorithms are developed for that kind of graph.
+
+```{r cluster}
+dtp.un <- as.undirected(dtp, mode="collapse", 
+                        edge.attr.comb="ignore")
+
+dtp.com <- walktrap.community(dtp.un)
+dtp.com
+# Get the membership vector
+dtp.vec <- dtp.com$membership
+# Use it to color the vertices
+plot(dtp, vertex.label=V(dtp)$id, edge.arrow.size=0.6, 
+     layout=mcoord, vertex.size=dtp.size,
+     vertex.color=dtp.vec+1,
+     edge.width=dtp.wt)
+```
+
+Not bad, but probably we would do better if we took the edge weights and directions into account. 

@@ -1,0 +1,62 @@
+# R setup
+library("sand")
+
+# 2 Data file location
+setwd("C:/Users/TG/OneDrive/Documents/CSC 495/hwk2/hwk2")
+
+# 3 Read data
+lesm3 <- read.graph("lesmiserables3.net", format="pajek")
+list.vertex.attributes(lesm3)
+V(lesm3)$id
+E(lesm3)$weight
+list.edge.attributes(lesm3)
+# 4 Show network
+#5 Plot the network
+plot(lesm3, vertex.label=NA, edge.arrow.size=0.2,layout=layout.kamada.kawai)
+# 6 Look at edge attributes
+list.edge.attributes(lesm3)
+head(E(lesm3))
+# 7 Edge weights
+lesm3.pref <- E(lesm3)$weight
+table(lesm3.pref)
+# 8 Compute degree and degree distribution
+lesm3.deg<-degree(lesm3,v=V(lesm3),mode='total')
+lesm3.degdist<-degree.distribution(lesm3)
+show(lesm3.degdist)
+# 9 Show a table of vertex degrees
+show(lesm3.deg)
+
+# 10 & 11 Plot a histogram of the vertex degrees
+# compare to a plot of the degree distribution
+hist(lesm3.deg)
+barplot(lesm3.degdist)
+# 12 Compute weighted degree
+lesm3.wt<-graph.strength(lesm3,vids=V(lesm3),mode='total',loops = TRUE, weights = lesm3.pref)
+
+# 13 Show a table of the weighted vertex degrees
+show(lesm3.wt)
+# 14 Plot a histogram of the weighted vertex degrees
+hist(lesm3.wt)
+
+# 15 Box plot of the two items
+boxplot(lesm3.wt)
+# 16 Plot with resized vertices and selected labels.
+lesm3.label<-V(lesm3)$id
+lesm3.label
+lesm3.label[lesm3.wt <30]<-""
+lesm3.label
+V(lesm3)$id<-lesm3.label
+V(lesm3)$id
+lesm3.size<-log(graph.strength(lesm3))
+lesm3.versize<-log(graph.strength(lesm3))/5
+plot(lesm3, vertex.size=lesm3.size,vertex.label.cex=lesm3.versize,vertex.label=V(lesm3)$id, edge.arrow.size=0.2,layout=layout.kamada.kawai)
+#lesm3[lesm3.weight<30]<-""
+#V(lesm3)$id
+# 17 Filter network to contain only nodes of degree > 1
+# Redo the plot from 16
+lesm32 <- delete.vertices(lesm3, which(lesm3.wt <=1))
+
+V(lesm32)$id
+lesm32.size<-log(graph.strength(lesm32))
+lesm32.versize<-log(graph.strength(lesm32))/5
+plot(lesm32, vertex.size=lesm32.size,vertex.label.cex=lesm32.versize,vertex.label=V(lesm32)$id, edge.arrow.size=0.2,layout=layout.kamada.kawai)

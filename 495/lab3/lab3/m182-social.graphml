@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_na" for="node" attr.name="na" attr.type="boolean"/>
+  <key id="v_vertex.names" for="node" attr.name="vertex.names" attr.type="double"/>
+  <key id="e_friend" for="edge" attr.name="friend" attr.type="double"/>
+  <key id="e_na" for="edge" attr.name="na" attr.type="boolean"/>
+  <key id="e_social" for="edge" attr.name="social" attr.type="double"/>
+  <key id="e_task" for="edge" attr.name="task" attr.type="double"/>
+  <graph id="G" edgedefault="directed">
+    <node id="n0">
+      <data key="v_na">false</data>
+      <data key="v_vertex.names">1</data>
+    </node>
+    <node id="n1">
+      <data key="v_na">false</data>
+      <data key="v_vertex.names">2</data>
+    </node>
+    <node id="n2">
+      <data key="v_na">false</data>
+      <data key="v_vertex.names">3</data>
+    </node>
+    <node id="n3">
+      <data key="v_na">false</data>
+      <data key="v_vertex.names">5</data>
+    </node>
+    <node id="n4">
+      <data key="v_na">false</data>
+      <data key="v_vertex.names">6</data>
+    </node>
+    <node id="n5">
+      <data key="v_na">false</data>
+      <data key="v_vertex.names">7</data>
+    </node>
+    <node id="n6">
+      <data key="v_na">false</data>
+      <data key="v_vertex.names">8</data>
+    </node>
+    <node id="n7">
+      <data key="v_na">false</data>
+      <data key="v_vertex.names">9</data>
+    </node>
+    <node id="n8">
+      <data key="v_na">false</data>
+      <data key="v_vertex.names">10</data>
+    </node>
+    <node id="n9">
+      <data key="v_na">false</data>
+      <data key="v_vertex.names">11</data>
+    </node>
+    <node id="n10">
+      <data key="v_na">false</data>
+      <data key="v_vertex.names">12</data>
+    </node>
+    <node id="n11">
+      <data key="v_na">false</data>
+      <data key="v_vertex.names">13</data>
+    </node>
+    <node id="n12">
+      <data key="v_na">false</data>
+      <data key="v_vertex.names">14</data>
+    </node>
+    <node id="n13">
+      <data key="v_na">false</data>
+      <data key="v_vertex.names">15</data>
+    </node>
+    <edge source="n0" target="n3">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">1.2</data>
+      <data key="e_task">0.3</data>
+    </edge>
+    <edge source="n0" target="n6">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.15</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n0" target="n7">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">2.85</data>
+      <data key="e_task">0.3</data>
+    </edge>
+    <edge source="n0" target="n8">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">6.45</data>
+      <data key="e_task">0.3</data>
+    </edge>
+    <edge source="n0" target="n9">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.3</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n0" target="n10">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">1.95</data>
+      <data key="e_task">0.15</data>
+    </edge>
+    <edge source="n0" target="n11">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.6</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n0" target="n13">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">5.1</data>
+      <data key="e_task">0.15</data>
+    </edge>
+    <edge source="n1" target="n0">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n1" target="n2">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.15</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n1" target="n5">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">2.25</data>
+      <data key="e_task">0.75</data>
+    </edge>
+    <edge source="n1" target="n6">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">3.9</data>
+      <data key="e_task">0.3</data>
+    </edge>
+    <edge source="n1" target="n10">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.3</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n1" target="n11">
+      <data key="e_friend">2</data>
+      <data key="e_na">false</data>
+      <data key="e_social">14.1</data>
+      <data key="e_task">0.9</data>
+    </edge>
+    <edge source="n1" target="n13">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0</data>
+      <data key="e_task">0.15</data>
+    </edge>
+    <edge source="n2" target="n1">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.15</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n2" target="n3">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.75</data>
+      <data key="e_task">0.15</data>
+    </edge>
+    <edge source="n2" target="n4">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">9.3</data>
+      <data key="e_task">0.6</data>
+    </edge>
+    <edge source="n2" target="n5">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.3</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n2" target="n6">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.15</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n2" target="n12">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n2" target="n13">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n3" target="n0">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">1.2</data>
+      <data key="e_task">0.3</data>
+    </edge>
+    <edge source="n3" target="n2">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.75</data>
+      <data key="e_task">0.15</data>
+    </edge>
+    <edge source="n3" target="n4">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">1.5</data>
+      <data key="e_task">0.75</data>
+    </edge>
+    <edge source="n3" target="n8">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">1.8</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n3" target="n9">
+      <data key="e_friend">2</data>
+      <data key="e_na">false</data>
+      <data key="e_social">13.2</data>
+      <data key="e_task">2.1</data>
+    </edge>
+    <edge source="n3" target="n13">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.15</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n4" target="n0">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n4" target="n2">
+      <data key="e_friend">2</data>
+      <data key="e_na">false</data>
+      <data key="e_social">9.3</data>
+      <data key="e_task">0.75</data>
+    </edge>
+    <edge source="n4" target="n3">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">1.5</data>
+      <data key="e_task">0.45</data>
+    </edge>
+    <edge source="n4" target="n5">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n4" target="n6">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.15</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n4" target="n8">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.6</data>
+      <data key="e_task">0.15</data>
+    </edge>
+    <edge source="n4" target="n9">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">1.8</data>
+      <data key="e_task">0.3</data>
+    </edge>
+    <edge source="n4" target="n10">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.15</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n4" target="n12">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.3</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n5" target="n1">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">2.25</data>
+      <data key="e_task">1.2</data>
+    </edge>
+    <edge source="n5" target="n6">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">4.2</data>
+      <data key="e_task">0.15</data>
+    </edge>
+    <edge source="n5" target="n11">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">4.35</data>
+      <data key="e_task">0.3</data>
+    </edge>
+    <edge source="n5" target="n12">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">3.45</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n5" target="n13">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.15</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n6" target="n1">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">4.05</data>
+      <data key="e_task">0.45</data>
+    </edge>
+    <edge source="n6" target="n2">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.15</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n6" target="n4">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.15</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n6" target="n5">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">4.2</data>
+      <data key="e_task">0.3</data>
+    </edge>
+    <edge source="n6" target="n9">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.15</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n6" target="n11">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">8.4</data>
+      <data key="e_task">0.75</data>
+    </edge>
+    <edge source="n6" target="n12">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">4.65</data>
+      <data key="e_task">0.15</data>
+    </edge>
+    <edge source="n6" target="n13">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.15</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n7" target="n0">
+      <data key="e_friend">2</data>
+      <data key="e_na">false</data>
+      <data key="e_social">2.7</data>
+      <data key="e_task">0.15</data>
+    </edge>
+    <edge source="n7" target="n2">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n7" target="n8">
+      <data key="e_friend">2</data>
+      <data key="e_na">false</data>
+      <data key="e_social">1.35</data>
+      <data key="e_task">0.3</data>
+    </edge>
+    <edge source="n7" target="n10">
+      <data key="e_friend">2</data>
+      <data key="e_na">false</data>
+      <data key="e_social">10.8</data>
+      <data key="e_task">2.7</data>
+    </edge>
+    <edge source="n7" target="n13">
+      <data key="e_friend">2</data>
+      <data key="e_na">false</data>
+      <data key="e_social">4.05</data>
+      <data key="e_task">0.15</data>
+    </edge>
+    <edge source="n8" target="n0">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">6.75</data>
+      <data key="e_task">0.15</data>
+    </edge>
+    <edge source="n8" target="n2">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.15</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n8" target="n3">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">1.5</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n8" target="n4">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.6</data>
+      <data key="e_task">0.3</data>
+    </edge>
+    <edge source="n8" target="n7">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">1.35</data>
+      <data key="e_task">0.45</data>
+    </edge>
+    <edge source="n8" target="n9">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">1.2</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n8" target="n10">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">4.05</data>
+      <data key="e_task">0.75</data>
+    </edge>
+    <edge source="n8" target="n12">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.45</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n8" target="n13">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.9</data>
+      <data key="e_task">0.3</data>
+    </edge>
+    <edge source="n9" target="n0">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.3</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n9" target="n2">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.9</data>
+      <data key="e_task">0.15</data>
+    </edge>
+    <edge source="n9" target="n3">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">13.2</data>
+      <data key="e_task">1.8</data>
+    </edge>
+    <edge source="n9" target="n4">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">1.8</data>
+      <data key="e_task">0.45</data>
+    </edge>
+    <edge source="n9" target="n6">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.15</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n9" target="n8">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">1.35</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n9" target="n12">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.15</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n9" target="n13">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.15</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n10" target="n0">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">1.8</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n10" target="n1">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.3</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n10" target="n4">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.15</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n10" target="n11">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.3</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n10" target="n12">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.9</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n10" target="n13">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">4.8</data>
+      <data key="e_task">0.75</data>
+    </edge>
+    <edge source="n11" target="n0">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.6</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n11" target="n1">
+      <data key="e_friend">2</data>
+      <data key="e_na">false</data>
+      <data key="e_social">14.7</data>
+      <data key="e_task">1.05</data>
+    </edge>
+    <edge source="n11" target="n3">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.3</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n11" target="n5">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">4.35</data>
+      <data key="e_task">0.3</data>
+    </edge>
+    <edge source="n11" target="n6">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">8.55</data>
+      <data key="e_task">0.6</data>
+    </edge>
+    <edge source="n11" target="n10">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.3</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n11" target="n12">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">3.6</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n12" target="n1">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">3.45</data>
+      <data key="e_task">0.3</data>
+    </edge>
+    <edge source="n12" target="n2">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n12" target="n3">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0</data>
+      <data key="e_task">0.15</data>
+    </edge>
+    <edge source="n12" target="n4">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.3</data>
+      <data key="e_task">0.15</data>
+    </edge>
+    <edge source="n12" target="n5">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">3.45</data>
+      <data key="e_task">0.15</data>
+    </edge>
+    <edge source="n12" target="n6">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">4.8</data>
+      <data key="e_task">0.3</data>
+    </edge>
+    <edge source="n12" target="n8">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.45</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n12" target="n9">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.15</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n12" target="n10">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.9</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n12" target="n11">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">3.6</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n13" target="n0">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">5.1</data>
+      <data key="e_task">0.15</data>
+    </edge>
+    <edge source="n13" target="n3">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.15</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n13" target="n5">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.15</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n13" target="n6">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.15</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n13" target="n7">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">4.2</data>
+      <data key="e_task">0.15</data>
+    </edge>
+    <edge source="n13" target="n8">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.9</data>
+      <data key="e_task">0.3</data>
+    </edge>
+    <edge source="n13" target="n9">
+      <data key="e_friend">0</data>
+      <data key="e_na">false</data>
+      <data key="e_social">0.15</data>
+      <data key="e_task">0</data>
+    </edge>
+    <edge source="n13" target="n10">
+      <data key="e_friend">1</data>
+      <data key="e_na">false</data>
+      <data key="e_social">4.8</data>
+      <data key="e_task">0.45</data>
+    </edge>
+  </graph>
+</graphml>

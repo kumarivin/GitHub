@@ -1,0 +1,221 @@
+Lab 1
+========================================================
+
+In this lab, we create, load and display network data. Parts of this lab
+are based on McFarland, Daniel, Solomon Messing, Mike Nowak, and Sean 
+Westwood. 2010. "Social Network Analysis Labs in R." Stanford University.
+
+
+Setup
+--------------------------------------------------------
+
+We need to use the "igraph", "network" and "sna" packages.
+
+```
+library("sand")
+library("igraph")
+```
+
+```{r setup, include=FALSE}
+library("sand")
+library("igraph")
+```
+
+This is data collected from the managers of a high-tec company. 
+Each manager was asked to whom do you go to for advice and who is your 
+friend, to whom do you report was taken from company documents. 
+In addition attribute information was collected. Krackhardt D. (1987). 
+Cognitive social structures. Social Networks, 9, 104-134.
+
+### Loading the data
+
+The data is stored in four separate files. The edgelists are in the form:
+v1 v2 wt
+
+where v1 and v2 are nodes and wt is 1 if there is an edge between these
+two vertices and 0 if there is not. The edgelists are complete -- all
+possible edges are represented.
+
+There are four attributes for each manager: age in years, tenure (time worked
+at the company) in years, level in the corporate hierarchy (1=highest=CEO), 
+and department.
+
+```{r loading}
+setwd("C:/Users/TG/OneDrive/Documents/CSC 495/lab1/lab1")
+kr.advice<-read.table("krack-advice-edges.txt")
+kr.friend<-read.table("krack-friend-edges.txt")
+kr.reports<-read.table("krack-reports-edges.txt")
+kr.attrs<-read.csv("krack-attrs.csv")
+
+```
+
+### Consolidating the data
+
+Consolidate the data in a data frame and remove absent edges. The data
+frame should have columns "ego", "alter", "advice", "friend", "reportsTo".
+
+```{r consolidate}
+
+# Create a data frame
+kr.df<-data.frame(ego=kr.advice[,1],alter=kr.advice[,2],advice=kr.advice[,3],friend=kr.friend[,3],reports=kr.reports[,3])
+# Get rid of the absent edges
+kr.nz<-kr.df[kr.df$advice+kr.df$friend+kr.df$reports>0,]
+
+```
+
+### Convert to a graph and add attributes to edges and vertices
+
+```{r network}
+# Convert to network using edgelist
+kr.net <- graph.edgelist(cbind(kr.nz$ego,kr.nz$alter),directed=TRUE)
+# Set edge attributes
+E(kr.net)$advice<-kr.nz$advice
+E(kr.net)$friend<-kr.nz$friend
+E(kr.net)$reports<-kr.nz$reports
+# Set vertex attributes
+
+V(kr.net)$age<-kr.attrs$AGE
+V(kr.net)$tenure<-kr.attrs$TENURE
+V(kr.net)$dept<-kr.attrs$DEPT
+V(kr.net)$level<-kr.attrs$LEVEL
+
+```
+
+### Create subnetworks based on types of edges
+
+```{r subnets} 
+# Divide by edge types: advice
+advice.net<-delete.edges(kr.net,which(E(kr.net)$advice==0))
+# Divide by edge types: friend
+friend.net<-delete.edges(kr.net,which(E(kr.net)$friend==0))
+# Divide by edge types: reportsTo
+reports.net<-delete.edges(kr.net,which(E(kr.net)$reports==0))
+
+```
+
+We will show all of the networks together in a single figure.
+
+```{r all-nets, fig.width=7, fig.height=6}
+# Show all of the networks together in a single figure.
+# Creates a 2x2 array of plots
+par(mfrow=c(2,2))
+plot(kr.net,vertex.label=NA,edge.arrow.size=0.2,main="Full Network")
+plot(advice.net,vertex.label=NA,edge.arrow.size=0.2,main="Advice Network")
+plot(friend.net,vertex.label=NA,edge.arrow.size=0.2,main="Friend Network")
+plot(reports.net,vertex.label=NA,edge.arrow.size=0.2,main="Reports Network")
+# Goes back to 1 plot at a time
+par(mfrow=c(1,1))
+```
+
+Do the same thing but output to PDF.
+
+```{r all-nets-pdf}
+pdf("lab1-all-nets.pdf")
+par(mfrow=c(2,2))
+
+plot(kr.net,vertex.label=NA,edge.arrow.size=0.2,main="Full Network")
+plot(advice.net,vertex.label=NA,edge.arrow.size=0.2,main="Advice Network")
+plot(friend.net,vertex.label=NA,edge.arrow.size=0.2,main="Friend Network")
+plot(reports.net,vertex.label=NA,edge.arrow.size=0.2,main="Reports Network")
+# Goes back to 1 plot at a time
+par(mfrow=c(1,1))
+# Closes the file
+dev.off()
+
+
+```
+
+### Advice in-degree
+
+It seems likely that people who are at a company longer might be asked
+for advice more often. Let's test this hypothesis. The more fellow
+managers list a person as a source of advice, the higher that person's
+in-degree.
+
+First, we'll plot the advice network, sizing the nodes by tenure.
+
+```{r advice}
+# Plot the advice network, size the nodes by tenure.
+plot(advice.net,vertex.size=V(advice.net)$tenure,vertex.label=NA,edge.arrow.size=0.2)                        
+# Collect the in-degree data for the advice network
+advice.ind<-degree(advice.net,mode='in')   
+#histogram of indegreees
+
+```
+
+Then we'll look at a regression model.
+
+```{r advice-lm}
+# Regression on this variable
+advice.lm<-lm(advice.ind~V(advice.net)$tenure)                        
+# See the results
+summary(advice.lm)
+
+```
+
+To check assumptions, we can look at the residuals:
+
+```{r advice-qq}
+# Create a plot of in-degree vs tenure
+plot(V(advice.net)$tenure,advice.ind)
+# Add the regression line to the plot
+abline(advice.lm)
+plot(advice.lm,which=2)
+```
+
+What do we learn from this?
+
+Generally, there is the trend we would expect, but there
+are some major outliers who get asked for advice more than 
+their experience alone would suggest.
+
+### More visualizations
+
+One useful visualization trick is to create a layout on one characteristic
+and use it for other visualizations (remember from the HP Labs example in
+week 1.) We'll use this layout to see the advice-seeking data, sized by
+tenure, and color by department.
+
+```{r layout}
+# Compute the reportsTo layout
+reports.layout<-layout.fruchterman.reingold(reports.net)
+
+                        
+# Plot, sizing by tenure
+plot(advice.net,vertex.size=V(advice.net)$tenure,vertex.label=NA,edge.arrow.size=0.2,layout=reports.layout)
+
+
+```
+
+For our final plot, we will display all of the networks overlayed with
+different edge colors. For this, we'll display the original networks, but 
+we need color information mapped to the different edge types. Note the
+same edge colors will overwrite each other: no simple solution for this.
+
+```{r edge-color}
+# Set up some edge colors (use transparency)
+edge.colors<- c(rgb(1,0,0,.5), rgb(0,0,1,.5), rgb(0,0,0,0.75))
+                        
+# Create an edge attribute called "color" and set it correctly.
+E(kr.net)[E(kr.net)$advice==1]$color<-edge.colors[1] 
+E(kr.net)[E(kr.net)$friend==1]$color<-edge.colors[2] 
+E(kr.net)[E(kr.net)$reports==1]$color<-edge.colors[3] 
+
+```
+
+We'll plot the whole network and include a legend for ease of understanding.
+
+```{r full}
+# Plot, sizing by tenure
+plot(kr.net,vertex.size=(V(kr.net)$tenure/2)+5,vertex.label=NA,edge.arrow.size=0.2,layout=reports.layout,edge.color=E(kr.net)$color)
+# Add a legend to explain the colors
+legend("topleft",
+       legend = c('Advice', 
+                  'Friendship',
+                  'Reports To'), 
+       col = edge.colors, 
+       lty=1, lwd=3,
+       cex = 0.6)
+
+```
+
