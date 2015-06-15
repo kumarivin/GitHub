@@ -1,0 +1,1084 @@
+City,Country,Continent,Longitude,Latitude
+Kabul,Afghanistan,Asia,69.353,34.943
+Mazar-i-sharif,Afghanistan,Asia,67.349,37.178
+Kandahar,Afghanistan,Asia,66.413,31.842
+Tirana,Albania,Europe,20.2,41.691
+Oran,Algeria,Africa,-0.369,36.039
+Algier,Algeria,Africa,3.359,37.151
+Annaba,Algeria,Africa,8.348,37.37
+Tlemcen,Algeria,Africa,-1.084,35.027
+Setif,Algeria,Africa,5.54,36.296
+Constantine,Algeria,Africa,7.033,36.46
+Biskra,Algeria,Africa,6.23,35.322
+Batna,Algeria,Africa,6.514,36.253
+Bejaja,Algeria,Africa,5.116,37.186
+Hassi-messaoud,Algeria,Africa,6.234,32.121
+Pago Pago,American Samoa,NorthAmerica,-170.518,-13.885
+Luanda,Angola,Africa,13.385,-8.764
+Lubango,Angola,Africa,13.958,-14.875
+The Valley,Anguilla,NorthAmerica,-62.426,18.341
+Antigua,Antigua and Barbuda,NorthAmerica,-61.655,17.227
+Buenos Aires,Argentina,SouthAmerica,-58.227,-34.704
+Mendoza,Argentina,SouthAmerica,-68.655,-32.72
+Cordoba,Argentina,SouthAmerica,-63.68,-30.873
+Rosario,Argentina,SouthAmerica,-60.642,-32.84
+Rio Gallegos,Argentina,SouthAmerica,-68.855,-51.349
+Iguazu Falls,Argentina,SouthAmerica,-54.123,-25.563
+Salta,Argentina,SouthAmerica,-65.144,-24.76
+Yerevan,Armenia,Europe,44.659,40.245
+Gyumri,Armenia,Europe,44.432,41.25
+Oranjestad,Aruba,NorthAmerica,-69.359,12.835
+Sydney,Australia,Oceania,151.295,-33.911
+Brisbane,Australia,Oceania,153.195,-26.974
+Melbourne,Australia,Oceania,145.405,-37.456
+Perth,Australia,Oceania,116.611,-31.901
+Adelaide,Australia,Oceania,138.884,-34.909
+Coolangatta,Australia,Oceania,153.841,-27.608
+Cairns,Australia,Oceania,146.258,-16.81
+Darwin,Australia,Oceania,131.454,-12.014
+NewcastleA,Australia,Oceania,152.383,-32.634
+Port Hedland,Australia,Oceania,119.043,-19.963
+Vienna,Austria,Europe,16.949,48.183
+Salzburg,Austria,Europe,13.007,48.322
+Graz,Austria,Europe,15.732,47.651
+Innsbruck,Austria,Europe,11.573,47.433
+Klagenfurt,Austria,Europe,14.562,47.07
+Linz,Austria,Europe,14.312,48.388
+Baku,Azerbaijan,Europe,50.077,40.779
+Ganja,Azerbaijan,Europe,46.529,41.229
+Nakhchivan,Azerbaijan,Europe,45.764,39.314
+Freeport,Bahamas,NorthAmerica,-78.493,26.931
+Nassau,Bahamas,NorthAmerica,-77.111,25.064
+Marsh Harbor,Bahamas,NorthAmerica,-76.473,26.852
+Treasure Cay,Bahamas,NorthAmerica,-76.986,27.242
+Governor's Harbor,Bahamas,NorthAmerica,-75.886,25.474
+Great Exuma,Bahamas,NorthAmerica,-75.797,23.937
+North Eleuthera,Bahamas,NorthAmerica,-76.473,25.791
+Alice Town,Bahamas,NorthAmerica,-78.775,26.166
+Cockburn Town,Bahamas,NorthAmerica,-74.207,24.105
+Rock Sound,Bahamas,NorthAmerica,-75.63,25.486
+Chub Cay,Bahamas,NorthAmerica,-77.802,25.695
+Andros Town,Bahamas,NorthAmerica,-77.66,25.163
+Bahrain,Bahrain,Asia,51.056,26.451
+Dhaka,Bangladesh,Asia,90.662,24.405
+Chittagong,Bangladesh,Asia,92.355,22.416
+Sylhet Osmani,Bangladesh,Asia,92.444,25.605
+Bridgetown,Barbados,NorthAmerica,-59.155,13.124
+Minsk 2,Belarus,Europe,28.051,54.47
+Brussels,Belgium,Europe,4.807,51.502
+Charleroi,Belgium,Europe,4.756,50.765
+Liege,Belgium,Europe,5.738,51.062
+Antwerp,Belgium,Europe,4.767,51.315
+Belize City,Belize,NorthAmerica,-87.848,17.898
+Cotonou,Benin,Africa,2.64,6.595
+Bermuda,Bermuda,NorthAmerica,-64.465,32.606
+Thimphu,Bhutan,Asia,89.707,27.671
+Santa Cruz,Bolivia,SouthAmerica,-62.559,-17.408
+La PazB,Bolivia,SouthAmerica,-67.654,-16.189
+Cochabamba,Bolivia,SouthAmerica,-65.629,-17.036
+Sarajevo,Bosnia and Herzegovina,Europe,18.552,44.374
+Banja Luka,Bosnia and Herzegovina,Europe,17.495,45.569
+Gaberone,Botswana,Africa,26.53,-24.259
+Maun,Botswana,Africa,23.718,-19.955
+Francistown,Botswana,Africa,27.79,-20.6
+Kasane,Botswana,Africa,25.27,-17.722
+Sao Paulo,Brazil,SouthAmerica,-46.116,-23.054
+Rio De Janeiro,Brazil,SouthAmerica,-42.74,-22.682
+Porto Alegre,Brazil,SouthAmerica,-50.62,-29.991
+Manaus,Brazil,SouthAmerica,-59.417,-2.398
+Florianopolis,Brazil,SouthAmerica,-48.246,-27.451
+Belo Horizonte,Brazil,SouthAmerica,-43.949,-19.39
+Brasilia,Brazil,SouthAmerica,-47.865,-15.786
+Campinas,Brazil,SouthAmerica,-46.558,-22.346
+Porto Velho,Brazil,SouthAmerica,-63.838,-8.516
+Cuiaba,Brazil,SouthAmerica,-55.528,-15.422
+Vilhena,Brazil,SouthAmerica,-59.498,-12.491
+Campo Grande,Brazil,SouthAmerica,-54.455,-20.115
+Fortaleza,Brazil,SouthAmerica,-38.221,-3.628
+Salvador,Brazil,SouthAmerica,-37.886,-12.852
+Belem,Brazil,SouthAmerica,-48.128,-0.966
+Recife,Brazil,SouthAmerica,-34.872,-7.545
+Natal,Brazil,SouthAmerica,-34.747,-5.853
+Foz Do Iguacu,Brazil,SouthAmerica,-54.146,-25.327
+Curitiba,Brazil,SouthAmerica,-48.627,-25.215
+Roadtown/beef Island,British Virgin Islands,NorthAmerica,-64.239,18.741
+Brunei,Brunei,Asia,115.547,5.573
+Sofia,Bulgaria,Europe,23.676,43.158
+Bourgas,Bulgaria,Europe,27.858,42.949
+Plovdiv,Bulgaria,Europe,25.418,42.113
+Ouagadougou,Burkina Faso,Africa,-1.188,12.588
+Bobo-dioulasso,Burkina Faso,Africa,-3.885,11.266
+Yangon,Burma,Asia,96.222,17.512
+Mandalay,Burma,Asia,96.629,22.17
+Bujumbura,Burundi,Africa,29.53,-2.874
+Phnom-penh,Cambodia,Asia,105.406,11.91
+Siem-reap,Cambodia,Asia,104.354,13.684
+Douala,Cameroon,Africa,10.199,4.01
+Yaounde,Cameroon,Africa,11.922,4.204
+Calgary,Canada,NorthAmerica,-113.368,51.189
+Toronto,Canada,NorthAmerica,-79.385,44.128
+Vancouver,Canada,NorthAmerica,-122.641,49.323
+Montreal,Canada,NorthAmerica,-73.569,45.784
+Ottawa,Canada,NorthAmerica,-75.449,45.537
+Halifax,Canada,NorthAmerica,-63.182,45.468
+Edmonton,Canada,NorthAmerica,-113.3,53.516
+Victoria,Canada,NorthAmerica,-123.044,49.078
+Winnipeg,Canada,NorthAmerica,-96.734,50.516
+Regina,Canada,NorthAmerica,-104.444,50.719
+Saskatoon,Canada,NorthAmerica,-106.5,52.284
+Quebec,Canada,NorthAmerica,-70.989,47.318
+Moncton,Canada,NorthAmerica,-64.465,46.187
+Abbotsford,Canada,NorthAmerica,-121.935,49.042
+Prince George,Canada,NorthAmerica,-122.465,54.482
+Thunder Bay,Canada,NorthAmerica,-88.874,48.619
+Comox,Canada,NorthAmerica,-124.812,50.184
+Kelowna,Canada,NorthAmerica,-118.963,50.593
+HamiltonC,Canada,NorthAmerica,-79.892,43.289
+St. John's,Canada,NorthAmerica,-52.587,48.031
+Mont-Tremblant,Canada,NorthAmerica,-74.634,46.682
+Mackenzie British Columbia,Canada,NorthAmerica,-122.473,55.499
+Sao Vicente Island,Cape Verde,Africa,-24.425,17.389
+Amilcar Cabral,Cape Verde,Africa,-22.916,17.235
+"Praia,Santiago Island",Cape Verde,Africa,-23.156,15.54
+Boa Vista,Cape Verde,Africa,-22.815,16.227
+GeorgetownC,Cayman Islands,NorthAmerica,-80.93,19.487
+Cayman Barac,Cayman Islands,NorthAmerica,-79.805,20.144
+Bangui,Central African Republic,Africa,18.864,4.664
+N'djamena,Chad,Africa,15.056,12.222
+SantiagoC,Chile,SouthAmerica,-70.644,-32.989
+Arica,Chile,SouthAmerica,-69.898,-17.915
+Antofagasta,Chile,SouthAmerica,-70.076,-23.075
+Punta Arenas,Chile,SouthAmerica,-70.758,-52.338
+Iquique,Chile,SouthAmerica,-69.636,-20.226
+Easter Island,Chile,SouthAmerica,-109.037,-26.608
+Shanghai,China,Asia,122.342,31.238
+Beijing,China,Asia,116.974,40.133
+Guangzhou,China,Asia,113.497,23.654
+Hangzhou,China,Asia,120.724,30.382
+Chengdu,China,Asia,104.578,30.964
+Kunming,China,Asia,103.239,25.653
+Tianjin,China,Asia,117.576,39.207
+Qingdao,China,Asia,120.624,36.443
+Dalian,China,Asia,121.897,39.609
+Chongqing,China,Asia,107.069,30.198
+Changcha,China,Asia,113.366,28.315
+Xiamen,China,Asia,118.212,24.906
+Sanya,China,Asia,109.687,18.504
+Nanjing,China,Asia,119.436,32.236
+Ninbo,China,Asia,121.769,30.377
+Wuxi,China,Asia,120.715,31.824
+Wuhan,China,Asia,114.346,31.306
+Yanji,China,Asia,129.752,43.471
+Weihai,China,Asia,122.381,37.311
+Jinan,China,Asia,117.359,37.428
+Shenyang,China,Asia,123.483,41.637
+Haikou,China,Asia,110.764,20.558
+Xi'an,China,Asia,109.252,34.745
+Shenzhen,China,Asia,114.351,23.065
+Fuzhou,China,Asia,120.105,26.558
+Yantai,China,Asia,121.619,37.669
+Urumqi,China,Asia,87.79,44.511
+Nanning,China,Asia,108.287,23.013
+Yancheng,China,Asia,120.208,33.642
+Zhengzhou,China,Asia,114.401,34.866
+Guilin,China,Asia,110.065,25.363
+Quanzhou,China,Asia,118.983,25.327
+Harbin,China,Asia,126.417,46.039
+Hefei,China,Asia,117.497,32.3
+Xuzhou,China,Asia,117.183,34.266
+Taiyuan,China,Asia,113.047,38.244
+Shijiazhuang,China,Asia,115.162,38.467
+Mudanjiang,China,Asia,129.948,44.873
+Changchun,China,Asia,125.2,43.902
+Nanchang,China,Asia,116.5,29.441
+Jinghong,China,Asia,101.266,22.623
+Wenzhou,China,Asia,121.42,28.52
+Luxi,China,Asia,98.886,24.668
+Huangshan,China,Asia,118.426,30.222
+Manzhouli,China,Asia,117.549,49.944
+Lanzhou,China,Asia,104.028,36.195
+Huhhot,China,Asia,112.373,41.419
+Zhanjiang,China,Asia,110.596,21.357
+Shantou,China,Asia,117.138,23.666
+Meixian,China,Asia,116.221,24.583
+Guiyang,China,Asia,107.334,26.897
+Lhasa,China,Asia,91.519,29.496
+Hailar,China,Asia,120.375,49.341
+Yichang,China,Asia,111.735,31.118
+Christmas Island,Christmas Island,Oceania,106.15,-10.085
+Bogota,Colombia,SouthAmerica,-73.579,5.169
+Rio Negro,Colombia,SouthAmerica,-75.039,6.274
+Cali,Colombia,SouthAmerica,-75.97,3.905
+Cartagena,Colombia,SouthAmerica,-75.189,10.737
+Armenia,Colombia,SouthAmerica,-75.611,4.754
+Pereira,Colombia,SouthAmerica,-75.566,5.354
+Cucuta,Colombia,SouthAmerica,-72.186,8.545
+Bucaramanga,Colombia,SouthAmerica,-72.642,7.21
+Barranquilla,Colombia,SouthAmerica,-74.635,11.482
+San Andres Island,Colombia,SouthAmerica,-81.519,12.972
+Rio Hacha,Colombia,SouthAmerica,-72.877,11.877
+Moroni,Comoros,Africa,43.453,-11.223
+Anjouan,Comoros,Africa,44.717,-11.553
+Pointe-noire,Congo (Brazzaville),Africa,12.477,-4.694
+Kinshasa,Congo (Kinshasa),Africa,15.74,-3.977
+Brazzaville,Congo (Kinshasa),Africa,15.421,-3.753
+Lubumashi,Congo (Kinshasa),Africa,27.884,-11.319
+Avarua,Cook Islands,Oceania,-159.676,-20.672
+San JoseC,Costa Rica,NorthAmerica,-83.682,10.656
+Liberia,Costa Rica,NorthAmerica,-85.241,10.988
+Abidjan,Cote d'Ivoire,Africa,-3.878,5.435
+Zagreb,Croatia,Europe,16.114,46.238
+Split,Croatia,Europe,16.496,43.898
+Dubrovnik,Croatia,Europe,18.447,42.935
+Havana,Cuba,NorthAmerica,-82.016,23.648
+Varadero,Cuba,NorthAmerica,-81.059,23.057
+Holguin,Cuba,NorthAmerica,-75.859,21.309
+Santa Clara,Cuba,NorthAmerica,-79.907,22.82
+Cayo,Cuba,NorthAmerica,-81.244,22.027
+Cayo Coco,Cuba,NorthAmerica,-78.185,22.855
+Santiago De Cuba,Cuba,NorthAmerica,-75.726,20.616
+Camaguey,Cuba,NorthAmerica,-77.746,21.7
+Cienfuegos,Cuba,NorthAmerica,-80.024,22.25
+Larnaca,Cyprus,Europe,34.041,35.458
+Nicosia,Cyprus,Europe,33.826,35.257
+Paphos,Cyprus,Europe,32.809,35.196
+Prague,Czech Republic,Europe,14.433,50.168
+Karlovy Vary,Czech Republic,Europe,13.524,50.338
+Turany,Czech Republic,Europe,17.157,49.252
+Pardubice,Czech Republic,Europe,16.231,50.022
+Ostrava,Czech Republic,Europe,18.185,50.16
+Copenhagen,Denmark,Europe,13.093,56.029
+Aalborg,Denmark,Europe,10.415,57.154
+Billund,Denmark,Europe,9.252,56.233
+Aarhus,Denmark,Europe,11.031,56.5
+Esbjerg,Denmark,Europe,8.922,55.876
+Djibouti,Djibouti,Africa,43.265,11.912
+Dominica,Dominica,NorthAmerica,-60.834,15.911
+Santo Domingo,Dominican Republic,NorthAmerica,-69.449,18.716
+Punta Cana,Dominican Republic,NorthAmerica,-67.94,18.945
+Puerto Plata,Dominican Republic,NorthAmerica,-70.284,20.263
+La Romana,Dominican Republic,NorthAmerica,-68.854,18.751
+Samana,Dominican Republic,NorthAmerica,-69.57,19.445
+SantiagoD,Dominican Republic,NorthAmerica,-70.342,19.676
+Dili,East Timor,Asia,125.874,-8.245
+Guayaquil,Ecuador,SouthAmerica,-79.806,-1.596
+Quito,Ecuador,SouthAmerica,-78.148,0.431
+Sharm El Sheikh,Egypt,Africa,34.658,28.628
+Alexandria,Egypt,Africa,30.16,31.529
+Sohag,Egypt,Africa,32.238,26.568
+Luxor,Egypt,Africa,33.177,26.118
+Hurghada,Egypt,Africa,34.332,27.297
+Cairo,Egypt,Africa,31.675,30.203
+Asyut,Egypt,Africa,31.019,27.077
+Taba,Egypt,Africa,35.296,29.979
+Marsa Alam,Egypt,Africa,34.972,25.928
+San Salvador,El Salvador,NorthAmerica,-88.427,13.734
+Malabo,Equatorial Guinea,Africa,9.181,4.258
+Asmara,Eritrea,Africa,39.517,15.486
+Tallinn-ulemiste International,Estonia,Europe,25.388,59.688
+Tartu-ulenurme,Estonia,Europe,27.15,58.512
+Addis Ababa,Ethiopia,Africa,39.332,9.629
+Makale,Ethiopia,Africa,39.889,13.778
+Dire Dawa,Ethiopia,Africa,42.423,10.041
+Bahar Dar,Ethiopia,Africa,37.536,12.013
+Mount Pleasant,Falkland Islands,SouthAmerica,-58.079,-51.705
+Vagar,Faroe Islands,Europe,-6.796,62.106
+Nandi,Fiji,Oceania,177.738,-17.593
+Nausori,Fiji,Oceania,178.932,-17.406
+Helsinki,Finland,Europe,25.605,60.528
+Turku,Finland,Europe,22.438,60.856
+Vaasa,Finland,Europe,22.27,63.084
+Tampere,Finland,Europe,24.007,61.69
+Oulu,Finland,Europe,25.59,65.55
+Kruunupyy,Finland,Europe,23.238,64.201
+Kittila,Finland,Europe,25.411,68.168
+Lappeenranta,Finland,Europe,28.24,61.074
+Rovaniemi,Finland,Europe,26.384,66.941
+Mariehamn,Finland,Europe,20.496,60.203
+Paris,France,Europe,2.916,49.021
+Nice,France,Europe,7.359,44.097
+Grenoble,France,Europe,5.548,45.604
+Lyon,France,Europe,5.151,46.21
+Bordeaux,France,Europe,-0.526,45.38
+Marseille,France,Europe,5.356,43.725
+Chambery,France,Europe,6.467,46.063
+Toulouse,France,Europe,1.606,44.048
+Gustavia,France,Europe,-62.721,18.503
+Nantes,France,Europe,-1.352,47.255
+Mulhouse,France,Europe,7.883,47.982
+Lille,France,Europe,3.149,50.936
+Strasbourg,France,Europe,8.047,48.897
+Rennes,France,Europe,-1.558,48.115
+Limoges,France,Europe,1.299,46.437
+Clermont Ferrand,France,Europe,3.281,46.311
+Beauvais,France,Europe,2.187,49.757
+Montpellier,France,Europe,4.605,43.96
+St.-etienne,France,Europe,4.493,45.9
+Dinard,France,Europe,-1.467,48.979
+Tours,France,Europe,1.212,47.72
+Rodez,France,Europe,2.804,44.679
+Poitiers,France,Europe,0.511,46.979
+Perpignan,France,Europe,3.451,43.234
+La Rochelle,France,Europe,-0.659,46.298
+Tarbes,France,Europe,0.655,43.297
+Nimes,France,Europe,4.693,44.262
+Carcassonne,France,Europe,2.51,43.359
+Beziers,France,Europe,3.589,43.539
+Biarritz-bayonne,France,Europe,-1.206,43.78
+Metz,France,Europe,6.418,49.636
+Pau,France,Europe,-0.032,43.633
+Deauville,France,Europe,0.257,49.608
+Brive,France,Europe,1.781,45.251
+Brest,France,Europe,-4.031,48.746
+Cayenne,French Guiana,Africa,-51.935,5.366
+Papeete,French Polynesia,Oceania,-149.353,-17.262
+Libreville,Gabon,Africa,9.687,0.764
+Banjul,Gambia,Africa,-16.421,13.563
+Tbilisi,Georgia,Europe,45.591,42.115
+Batumi,Georgia,Europe,41.999,42.017
+Frankfurt,Germany,Europe,8.905,50.044
+Munich,Germany,Europe,12.31,48.589
+Berlin,Germany,Europe,13.479,52.932
+Hamburg,Germany,Europe,10.647,54.05
+Duesseldorf,Germany,Europe,7.277,51.482
+Stuttgart,Germany,Europe,9.369,49.149
+Cologne,Germany,Europe,7.237,51.443
+Saarbruecken,Germany,Europe,7.182,49.357
+Hannover,Germany,Europe,10.141,52.768
+Dortmund,Germany,Europe,8.02,51.863
+Bremen,Germany,Europe,9.311,53.079
+Nuernberg,Germany,Europe,11.111,49.831
+Leipzig,Germany,Europe,12.402,51.72
+Marktoberdorf,Germany,Europe,11.045,48.3
+Dresden,Germany,Europe,14.278,51.221
+Paderborn,Germany,Europe,9.027,52.023
+Zweibruecken,Germany,Europe,7.668,49.349
+Luebeck,Germany,Europe,11.198,54.342
+Memmingen,Germany,Europe,10.399,48.647
+Weeze,Germany,Europe,6.236,52.003
+Hahn,Germany,Europe,7.439,50.581
+Augsburg,Germany,Europe,11.552,48.708
+Friedrichshafen,Germany,Europe,9.852,48.118
+Karlsruhe/Baden-Baden,Germany,Europe,8.134,49.298
+Muenster/osnabrueck,Germany,Europe,8.141,52.224
+Accra,Ghana,Africa,0.388,6.008
+Gibraltar,Gibraltar,Europe,-4.917,36.252
+Athens,Greece,Europe,24.574,38.56
+Thessaloniki,Greece,Europe,23.618,40.866
+Heraklion,Greece,Europe,25.3,35.566
+Rhodos,Greece,Europe,28.143,36.675
+Kulusuk,Greenland,NorthAmerica,-36.528,65.944
+Godthaab,Greenland,NorthAmerica,-51.464,64.318
+Sondrestrom,Greenland,NorthAmerica,-50.483,67.028
+Point Salines,Grenada,NorthAmerica,-61.644,12.007
+Pointe-a-pitre,Guadeloupe,NorthAmerica,-61.22,16.442
+St. Martin,Guadeloupe,NorthAmerica,-62.412,18.166
+Agana,Guam,Oceania,145.326,13.805
+Guatemala City,Guatemala,NorthAmerica,-90.213,14.972
+Guernsey,Guernsey,Europe,-2.337,49.724
+Alderney,Guernsey,Europe,-1.692,50.176
+Conakry,Guinea,Africa,-13.354,9.961
+Bissau,Guinea-Bissau,Africa,-15.423,12.491
+GeorgetownG,Guyana,SouthAmerica,-57.757,6.83
+Port-au-prince,Haiti,NorthAmerica,-71.821,18.966
+Cap Haitien,Haiti,NorthAmerica,-71.658,20.221
+San Pedro Sula,Honduras,NorthAmerica,-87.873,15.754
+Tegucigalpa,Honduras,NorthAmerica,-86.696,14.101
+La Ceiba,Honduras,NorthAmerica,-86.756,16.237
+Roatan,Honduras,NorthAmerica,-86.205,16.528
+Hong Kong,Hong Kong,Asia,114.524,22.514
+Budapest,Hungary,Europe,19.425,47.728
+Keflavik,Iceland,Europe,-22.343,64.641
+Reykjavik,Iceland,Europe,-21.901,64.216
+Delhi,India,Asia,77.171,28.944
+Bombay,India,Asia,73.446,19.147
+Madras,India,Asia,80.3,13.657
+Calcutta,India,Asia,88.744,23.091
+Hyderabad,India,Asia,78.779,17.755
+Goa,India,Asia,74.385,15.634
+Trivandrum,India,Asia,77.533,8.803
+Bangalore,India,Asia,78.113,13.583
+Tiruchirappalli,India,Asia,79.182,11.275
+Calicut,India,Asia,76.592,11.228
+Kochi,India,Asia,76.652,10.259
+Coimbatore,India,Asia,77.072,11.05
+Ahmedabad,India,Asia,73.057,23.128
+Gaya,India,Asia,85.585,25.24
+Lucknow,India,Asia,81.482,27.267
+Jaipur,India,Asia,76.353,27.373
+Varanasi,India,Asia,83.432,25.753
+Amritsar,India,Asia,75.328,32.182
+Baghdogra,India,Asia,88.547,27.135
+Guwahati,India,Asia,91.976,26.176
+Nagpur,India,Asia,79.078,21.153
+Pune,India,Asia,74.532,18.97
+Jakarta,Indonesia,Asia,107.093,-5.543
+Denpasar,Indonesia,Asia,115.278,-8.581
+Surabaya,Indonesia,Asia,113.311,-6.967
+Medan,Indonesia,Asia,99.119,3.93
+Bandung,Indonesia,Asia,107.96,-6.835
+Solo City,Indonesia,Asia,111.261,-7.194
+Palembang,Indonesia,Asia,105.166,-2.831
+Pekanbaru,Indonesia,Asia,101.74,0.767
+Manado,Indonesia,Asia,125.543,1.915
+Balikpapan,Indonesia,Asia,117.49,-0.781
+Mataram,Indonesia,Asia,116.157,-8.268
+Ujung Pandang,Indonesia,Asia,119.923,-4.437
+Banda Aceh,Indonesia,Asia,95.7,5.872
+Batam,Indonesia,Asia,104.197,1.201
+Yogyakarta,Indonesia,Asia,110.719,-7.647
+Praya,Indonesia,Asia,116.461,-8.596
+Padang,Indonesia,Asia,100.586,-0.792
+Tehran,Iran,Asia,51,35
+Mashhad,Iran,Asia,59,36
+Tabriz,Iran,Asia,46.391,38.223
+Shiraz,Iran,Asia,52.982,29.898
+Bandar Abbas,Iran,Asia,56.629,27.363
+Ahwaz,Iran,Asia,49.269,31.562
+Kish Island,Iran,Asia,54.633,26.876
+Isfahan,Iran,Asia,52.435,33.251
+Zahedan,Iran,Asia,61.51,29.792
+Lar,Iran,Asia,54.638,28.124
+Chah Bahar,Iran,Asia,60.636,25.738
+Dasht-e-naz,Iran,Asia,53.322,37.059
+Sanandaj,Iran,Asia,47.015,35.409
+Bakhtaran,Iran,Asia,47.263,34.576
+Bushehr,Iran,Asia,51.391,29.574
+Yazd,Iran,Asia,54.46,32.508
+Abadan,Iran,Asia,48.38,30.618
+Sulaymaniyah,Iraq,Asia,45.524,35.934
+Erbil,Iraq,Asia,44.605,36.396
+Najaf,Iraq,Asia,44.673,32.652
+Basrah,Iraq,Asia,48.103,30.915
+Baghdad,Iraq,Asia,44.39,33.437
+Dublin,Ireland,Europe,-5.784,53.702
+Cork,Ireland,Europe,-8.152,52.402
+Shannon,Ireland,Europe,-8.875,53.169
+Connaught,Ireland,Europe,-8.698,54.517
+Kerry,Ireland,Europe,-9.207,52.301
+Waterford,Ireland,Europe,-6.479,52.312
+Leixlip,Ireland,Europe,-6.146,53.585
+Dongloe,Ireland,Europe,-7.902,55.073
+Isle Of Man,Isle of Man,Europe,-4.374,54.138
+Tel-aviv,Israel,Asia,35.477,32.018
+Ovda,Israel,Asia,35.559,30.567
+Rome,Italy,Europe,12.417,42.34
+Milan,Italy,Europe,9.461,45.741
+Milano,Italy,Europe,9.213,46.051
+Torino,Italy,Europe,8.082,45.334
+Venice,Italy,Europe,12.586,45.842
+Firenze,Italy,Europe,11.341,44.349
+Catania,Italy,Europe,15.11,37.777
+Villafranca,Italy,Europe,11.48,45.659
+Pisa,Italy,Europe,10.654,44.139
+Naples,Italy,Europe,14.484,41.476
+Bologna,Italy,Europe,11.481,44.892
+Bergamo,Italy,Europe,10.173,46.123
+Bari,Italy,Europe,17.267,41.231
+Rimini,Italy,Europe,13.019,44.033
+Genoa,Italy,Europe,9.395,44.688
+Palermo,Italy,Europe,13.151,38.293
+Ancona,Italy,Europe,13.603,44.027
+Olbia,Italy,Europe,9.862,41.497
+Brindisi,Italy,Europe,18.578,41.096
+Treviso,Italy,Europe,12.324,46.08
+Forli,Italy,Europe,12.116,44.324
+Levaldigi,Italy,Europe,8.038,44.911
+Cagliari,Italy,Europe,9.09,39.419
+Ronchi De Legionari,Italy,Europe,13.787,46.379
+Pescara,Italy,Europe,14.301,42.719
+Perugia,Italy,Europe,12.855,43.159
+Trapani,Italy,Europe,12.813,38.519
+Lamezia,Italy,Europe,16.403,39.508
+Parma,Italy,Europe,10.493,45.374
+Alghero,Italy,Europe,8.484,41.053
+Montego Bay,Jamaica,NorthAmerica,-77.856,18.839
+Kingston,Jamaica,NorthAmerica,-76.646,18.559
+Tokyo,Japan,Asia,140.643,36.274
+Osaka,Japan,Asia,135.406,34.724
+Fukuoka,Japan,Asia,130.751,33.976
+Nagoya,Japan,Asia,137.342,35.43
+Shizuoka,Japan,Asia,138.315,35.326
+Sapporo,Japan,Asia,142.153,43.292
+Okinawa,Japan,Asia,128.076,26.326
+Sendai,Japan,Asia,141.528,38.232
+Okayama,Japan,Asia,134.425,35.261
+Niigata,Japan,Asia,139.107,37.951
+Hiroshima,Japan,Asia,133.532,34.726
+Miho,Japan,Asia,133.393,35.82
+Toyama,Japan,Asia,137.312,37.08
+Takamatsu,Japan,Asia,134.025,34.356
+Matsuyama,Japan,Asia,133.166,34.378
+Kumamoto,Japan,Asia,131.425,33.395
+Miyazaki,Japan,Asia,131.747,32.462
+Nagasaki,Japan,Asia,130.522,33.528
+Kagoshima,Japan,Asia,131.199,32.338
+Kanazawa,Japan,Asia,136.677,36.657
+Asahikawa,Japan,Asia,142.745,44.118
+Oita,Japan,Asia,132.228,33.799
+Hakodate,Japan,Asia,141.369,42.283
+Akita,Japan,Asia,140.364,40.025
+Aomori,Japan,Asia,141.151,41.224
+Ibaraki,Japan,Asia,140.692,36.301
+Kitakyushu,Japan,Asia,131.057,34.409
+Jersey,Jersey,Europe,-1.66,49.346
+Amman,Jordan,Asia,36.655,32.204
+Tselinograd,Kazakhstan,Asia,71.778,51.037
+Alma-ata,Kazakhstan,Asia,77.067,43.586
+Aktau,Kazakhstan,Asia,51.088,43.855
+Uralsk,Kazakhstan,Asia,51.905,51.251
+Kostanay,Kazakhstan,Asia,63.917,53.344
+Karaganda,Kazakhstan,Asia,73.557,50.118
+Atyrau,Kazakhstan,Asia,52.368,47.203
+Chimkent,Kazakhstan,Asia,69.798,42.606
+Ust Kamenogorsk,Kazakhstan,Asia,82.823,50.061
+Pavlodar,Kazakhstan,Asia,77.123,52.325
+Aktyubinsk,Kazakhstan,Asia,57.344,50.409
+Nairobi,Kenya,Africa,37.545,-0.866
+Mombasa,Kenya,Africa,39.99,-3.392
+Wajir,Kenya,Africa,40.152,2.222
+Kiritimati,Kiribati,Oceania,-156.917,2.643
+Tarawa,Kiribati,Oceania,173.245,1.636
+Pyongyang,Korea,Asia,126.116,39.373
+Kuwait,Kuwait,Asia,48.614,29.377
+Osh,Kyrgyzstan,Asia,73.322,41.014
+Bishkek,Kyrgyzstan,Asia,74.795,43.102
+Vientiane,Laos,Asia,102.938,18.647
+Luang Prabang,Laos,Asia,102.267,20.496
+Savannakhet,Laos,Asia,105.265,16.927
+Pakse,Laos,Asia,106.302,15.22
+Riga,Latvia,Europe,24.618,57.539
+Beirut,Lebanon,Asia,35.813,34.368
+Maseru,Lesotho,Africa,27.92,-29.104
+Monrovia,Liberia,Africa,-9.938,6.389
+Tripoli,Libya,Africa,13.265,33.105
+Benghazi,Libya,Africa,20.449,32.161
+Misratah,Libya,Africa,15.101,32.541
+Kaunas,Lithuania,Europe,24.141,55.606
+Vilnius,Lithuania,Europe,25.476,55.056
+Palanga,Lithuania,Europe,21.156,56.622
+Luxemburg,Luxembourg,Europe,6.352,50.044
+Macau,Macau,Asia,113.985,22.249
+Skopje,Macedonia,Europe,22.035,42.602
+Antananarivo,Madagascar,Africa,47.798,-18.662
+Toamasina,Madagascar,Africa,49.654,-17.516
+Mahajanga,Madagascar,Africa,46.586,-15.446
+Nosy-be,Madagascar,Africa,48.524,-12.854
+Toliara,Madagascar,Africa,44.214,-22.973
+Sainte Marie,Madagascar,Africa,50.359,-16.49
+Antsiranana,Madagascar,Africa,49.486,-11.916
+Lilongwe,Malawi,Africa,34.301,-13.649
+Blantyre,Malawi,Africa,35.623,-15.466
+Kuala Lumpur,Malaysia,Asia,102.183,3.242
+Penang,Malaysia,Asia,100.461,5.495
+Kuching,Malaysia,Asia,110.578,1.807
+Pulau,Malaysia,Asia,100.214,6.549
+Kota Kinabalu,Malaysia,Asia,116.085,6.562
+Kuantan,Malaysia,Asia,103.348,4.292
+Ipoh,Malaysia,Asia,101.153,4.946
+Malacca,Malaysia,Asia,102.419,2.438
+Tioman,Malaysia,Asia,104.266,3.363
+Miri,Malaysia,Asia,114.644,4.536
+Male,Maldives,Asia,73.881,4.319
+Bamako,Mali,Africa,-7.917,12.889
+Malta,Malta,Europe,14.795,36.429
+Majuro,Marshall Islands,Oceania,171.453,7.107
+Kwajalein,Marshall Islands,Oceania,168.219,9.2
+Fort-de-france,Martinique,NorthAmerica,-60.339,14.985
+Nouakschott,Mauritania,Africa,-15.914,18.163
+Plaisance,Mauritius,Africa,58.139,-20.051
+Dzaoudzi,Mayotte,Oceania,45.468,-12.675
+Mexico City,Mexico,NorthAmerica,-98.454,19.727
+Guadalajara,Mexico,NorthAmerica,-102.852,20.869
+Puerto Vallarta,Mexico,NorthAmerica,-104.757,21.133
+Cancun,Mexico,NorthAmerica,-86.796,21.06
+San Jose Del Cabo,Mexico,NorthAmerica,-109.536,23.253
+Del Bajio,Mexico,NorthAmerica,-101.135,21.655
+Monterrey,Mexico,NorthAmerica,-99.512,26.297
+Hermosillo,Mexico,NorthAmerica,-110.414,29.159
+Cozumel,Mexico,NorthAmerica,-86.877,20.87
+Zihuatanejo,Mexico,NorthAmerica,-101.101,18.002
+Mazatlan,Mexico,NorthAmerica,-105.777,23.268
+Manzanillo,Mexico,NorthAmerica,-104.265,19.241
+Villahermosa,Mexico,NorthAmerica,-92.696,18.661
+Vera Cruz,Mexico,NorthAmerica,-95.646,19.243
+Torreon,Mexico,NorthAmerica,-103.018,25.947
+Toluca,Mexico,NorthAmerica,-99.277,19.561
+Tuxtla Gutierrez,Mexico,NorthAmerica,-92.377,16.936
+Tampico,Mexico,NorthAmerica,-97.777,22.494
+Saltillo,Mexico,NorthAmerica,-100.882,25.915
+San Luis Potosi,Mexico,NorthAmerica,-100.885,22.423
+Queretaro,Mexico,NorthAmerica,-99.643,21.028
+Puebla,Mexico,NorthAmerica,-97.953,19.263
+Oaxaca,Mexico,NorthAmerica,-96.545,17.666
+Morelia,Mexico,NorthAmerica,-100.376,20.416
+Merida,Mexico,NorthAmerica,-89.43,21.561
+Bahias Dehuatulco,Mexico,NorthAmerica,-95.771,16.292
+Durango,Mexico,NorthAmerica,-104.214,24.206
+Chihuahua,Mexico,NorthAmerica,-105.941,29.171
+Ciudad Del Carmen,Mexico,NorthAmerica,-91.666,19.089
+Aguascalientes,Mexico,NorthAmerica,-101.864,22.175
+Acapulco,Mexico,NorthAmerica,-99.59,17.261
+Zacatecas,Mexico,NorthAmerica,-102.479,23.495
+Tijuana,Mexico,NorthAmerica,-116.951,32.901
+Guaymas,Mexico,NorthAmerica,-110.876,28.614
+Loreto,Mexico,NorthAmerica,-110.914,26.648
+La PazM,Mexico,NorthAmerica,-109.938,24.121
+Yap,Micronesia,Oceania,138.137,9.831
+Chuuk,Micronesia,Oceania,152.405,7.769
+Pohnpei,Micronesia,Oceania,158.348,7.641
+Kosrae,Micronesia,Oceania,163.597,5.594
+Kichinau Fir/acc/com,Moldova,Europe,29.551,47.546
+Monaco,Monaco,Europe,7.694,44.222
+Ulan Bator,Mongolia,Asia,107.277,48.405
+Tivat,Montenegro,Europe,19.205,42.674
+Podgorica,Montenegro,Europe,19.419,42.598
+Geralds,Montserrat,NorthAmerica,-61.656,17.318
+Marrakech,Morocco,Africa,-7.394,32.011
+Casablanca,Morocco,Africa,-7.317,33.612
+Agadir,Morocco,Africa,-9.244,30.635
+Tanger,Morocco,Africa,-5.862,36.211
+Rabat,Morocco,Africa,-6.586,34.085
+Oujda,Morocco,Africa,-1.874,35.311
+Fez,Morocco,Africa,-4.964,34.545
+Ouarzazate,Morocco,Africa,-6.85,31.565
+Essadouira,Morocco,Africa,-9.47,31.662
+Al Hociema,Morocco,Africa,-3.733,35.295
+Maputo,Mozambique,Africa,32.954,-25.869
+Tete,Mozambique,Africa,34.066,-15.509
+Beira,Mozambique,Africa,35.512,-19.661
+Pemba,Mozambique,Africa,40.87,-12.978
+Vilankulu,Mozambique,Africa,35.522,-21.365
+Inhambane,Mozambique,Africa,35.68,-23.795
+Nampula,Mozambique,Africa,39.469,-14.51
+Windhoek,Namibia,Africa,17.77,-22.145
+Walvis Bay,Namibia,Africa,15.075,-22.967
+Kathmandu,Nepal,Asia,85.598,28.16
+Amsterdam,Netherlands,Europe,5.273,52.514
+Eindhoven,Netherlands,Europe,5.624,51.75
+Rotterdam,Netherlands,Europe,4.728,52.594
+Groningen,Netherlands,Europe,6.965,53.199
+Maastricht,Netherlands,Europe,6.283,51.519
+Willemstad,Netherlands Antilles,NorthAmerica,-68.934,12.314
+Philipsburg,Netherlands Antilles,NorthAmerica,-62.515,18.068
+Kralendijk,Netherlands Antilles,NorthAmerica,-67.781,12.218
+Noumea,New Caledonia,Oceania,166.354,-21.358
+Auckland,New Zealand,Oceania,175.319,-36.347
+Christchurch,New Zealand,Oceania,172.887,-43.149
+Wellington,New Zealand,Oceania,175.342,-40.879
+Queenstown International,New Zealand,Oceania,169.231,-44.369
+Rotorua,New Zealand,Oceania,176.528,-37.516
+HamiltonN,New Zealand,Oceania,175.553,-37.778
+Dunedin,New Zealand,Oceania,170.33,-45.881
+Managua,Nicaragua,NorthAmerica,-85.614,12.235
+Niamey,Niger,Africa,2.306,13.802
+Abuja,Nigeria,Africa,7.438,9.011
+Lagos,Nigeria,Africa,3.535,6.962
+Kano,Nigeria,Africa,8.874,12.079
+Alofi,Niue,Oceania,-169.877,-18.467
+Norfolk Island,Norfolk Island,Oceania,168.564,-28.403
+Saipan,Northern Mariana Islands,Oceania,146.215,15.198
+Rota,Northern Mariana Islands,Oceania,145.404,14.29
+Stavanger,Norway,Europe,6.063,59.461
+Bergen,Norway,Europe,5.363,60.488
+Oslo,Norway,Europe,11.167,60.323
+Sandefjord,Norway,Europe,10.431,59.311
+Kristiansand,Norway,Europe,8.142,58.34
+Haugesund,Norway,Europe,5.347,59.575
+Rygge,Norway,Europe,11.308,59.631
+Trondheim,Norway,Europe,11.54,63.762
+Alesund,Norway,Europe,6.183,62.933
+Bodo,Norway,Europe,14.608,67.448
+Tromso,Norway,Europe,19.531,70.138
+Muscat,Oman,Asia,58.474,23.988
+Salalah,Oman,Asia,54.152,17.064
+Karachi,Pakistan,Asia,67.267,25.51
+Peshawar,Pakistan,Asia,71.857,34.656
+Lahore,Pakistan,Asia,74.672,31.869
+Islamabad,Pakistan,Asia,73.165,34.027
+Sialkot,Pakistan,Asia,74.606,32.892
+Quetta,Pakistan,Asia,67.562,30.418
+Turbat,Pakistan,Asia,63.05,26.643
+Rahim Yar Khan,Pakistan,Asia,70.465,28.639
+Multan,Pakistan,Asia,71.698,30.338
+Faisalabad,Pakistan,Asia,73.658,31.608
+Gwadar,Pakistan,Asia,62.549,25.388
+Dera Ghazi Khan,Pakistan,Asia,70.809,30.601
+Babelthuap,Palau,Oceania,134.907,7.612
+Panama City,Panama,NorthAmerica,-78.973,9.118
+Bocas Del Toro,Panama,NorthAmerica,-81.752,9.568
+Port Moresby,Papua New Guinea,Oceania,147.366,-9.073
+Asuncion,Paraguay,SouthAmerica,-57.199,-24.734
+Ciudad del Este,Paraguay,SouthAmerica,-54.74,-25.093
+Lima,Peru,SouthAmerica,-76.524,-11.37
+Arequipa,Peru,SouthAmerica,-71.306,-15.902
+Cuzco,Peru,SouthAmerica,-71.898,-13.227
+Manila,Philippines,Asia,121.032,14.847
+Cebu,Philippines,Asia,124.632,10.512
+Davao,Philippines,Asia,126.076,7.209
+Angeles City,Philippines,Asia,120.933,15.309
+Kalibo,Philippines,Asia,122.627,12.132
+Bacolod,Philippines,Asia,123.549,11.07
+Laoag,Philippines,Asia,120.885,18.296
+Warsaw,Poland,Europe,21.611,52.276
+Krakow,Poland,Europe,20.308,50.129
+Gdansk,Poland,Europe,18.777,54.629
+Wroclaw,Poland,Europe,17.476,51.171
+Poznan,Poland,Europe,17.377,52.701
+Katowice,Poland,Europe,19.133,50.79
+Rzeszow,Poland,Europe,22.031,50.183
+Lodz,Poland,Europe,19.663,52.203
+Szczechin,Poland,Europe,15.503,53.974
+Bydgoszcz,Poland,Europe,18.629,53.161
+Lisbon,Portugal,Europe,-8.56,39.302
+Faro,Portugal,Europe,-7.944,37.024
+Porto,Portugal,Europe,-8.469,41.413
+Funchal,Portugal,Europe,-16.625,33.163
+Ponta Delgada,Portugal,Europe,-25.497,38.235
+San Juan,Puerto Rico,NorthAmerica,-65.337,18.732
+Vieques Island,Puerto Rico,NorthAmerica,-65.038,18.193
+Aguadilla,Puerto Rico,NorthAmerica,-66.55,18.824
+Ponce,Puerto Rico,NorthAmerica,-66.272,18.013
+Doha,Qatar,Asia,51.941,25.435
+St.-denis,Reunion,Oceania,55.85,-20.812
+St.-pierreR,Reunion,Oceania,55.705,-20.867
+Bucharest,Romania,Europe,26.17,44.953
+Timisoara,Romania,Europe,21.563,46.349
+Sibiu,Romania,Europe,24.152,46.309
+Iasi,Romania,Europe,28.034,47.297
+Cluj-napoca,Romania,Europe,24.143,47.308
+Tirgu Mures,Romania,Europe,24.687,46.779
+Craiova,Romania,Europe,24.481,44.53
+Constanta,Romania,Europe,28.813,44.603
+Moscow,Russia,Asia,38.51,55.681
+St. Petersburg,Russia,Asia,30.437,60.333
+Sverdlovsk,Russia,Asia,61.337,57.238
+Novosibirsk,Russia,Asia,83.084,55.021
+Samara,Russia,Asia,50.25,53.833
+Krasnodar,Russia,Asia,39.284,45.057
+Rostov,Russia,Asia,40.363,47.43
+Mineralnye Vody,Russia,Asia,43.136,44.375
+Sochi,Russia,Asia,40.594,43.749
+Kazan,Russia,Asia,49.464,56.01
+Krasnoyarsk,Russia,Asia,92.791,56.3
+Vladivostok,Russia,Asia,132.246,43.664
+Khabarovsk,Russia,Asia,135.313,48.88
+Chelyabinsk,Russia,Asia,61.838,55.509
+Yuzhno-sakhalinsk,Russia,Asia,143.195,47.481
+Irkutsk,Russia,Asia,104.648,52.446
+Kaliningrad,Russia,Asia,20.987,55.483
+Volgograd,Russia,Asia,44.575,49.304
+Stavropol,Russia,Asia,42.187,45.181
+Orenburg,Russia,Asia,55.761,52.326
+Voronezh,Russia,Asia,39.382,52.357
+Tyumen,Russia,Asia,65.54,57.315
+Nizhniy Novgorod,Russia,Asia,44.306,56.383
+Astrakhan,Russia,Asia,48.01,46.472
+Ufa,Russia,Asia,56.457,54.929
+Perm,Russia,Asia,56.035,58.524
+Yakutsk,Russia,Asia,130.284,62.155
+Khanty-Mansiysk,Russia,Asia,69.143,61.047
+Chita,Russia,Asia,113.509,52.043
+Omsk,Russia,Asia,73.517,55.611
+Makhachkala,Russia,Asia,48.087,43.361
+Surgut,Russia,Asia,73.669,61.572
+Saratov,Russia,Asia,46.038,51.557
+Murmansk,Russia,Asia,33.251,69.302
+Arkhangelsk,Russia,Asia,40.716,64.6
+Kigali,Rwanda,Africa,30.232,-1.948
+Basse Terre,Saint Kitts and Nevis,NorthAmerica,-62.532,17.518
+Charlestown,Saint Kitts and Nevis,NorthAmerica,-62.317,17.342
+Castries,Saint Lucia,NorthAmerica,-60.989,14.033
+Hewandorra,Saint Lucia,NorthAmerica,-60.921,14.221
+St.-pierreS,Saint Pierre and Miquelon,NorthAmerica,-55.622,47.271
+Kingstown,Saint Vincent and the Grenadines,NorthAmerica,-60.685,13.24
+Canouan Island,Saint Vincent and the Grenadines,NorthAmerica,-60.905,13.165
+Faleolo,Samoa,Oceania,-171.348,-13.717
+Sao Tome,Sao Tome and Principe,Africa,7.186,0.63
+Jeddah,Saudi Arabia,Asia,39.26,22.132
+Riyadh,Saudi Arabia,Asia,47.164,25.596
+Dammam,Saudi Arabia,Asia,50.329,26.785
+Madinah,Saudi Arabia,Asia,40.175,24.922
+Abha,Saudi Arabia,Asia,43.094,18.4
+Yenbo,Saudi Arabia,Asia,38.105,24.24
+Taif,Saudi Arabia,Asia,40.907,21.805
+Gassim,Saudi Arabia,Asia,44.289,26.504
+Dakar,Senegal,Africa,-17.151,15.232
+Pristina,Serbia,Europe,21.059,42.954
+Beograd,Serbia,Europe,20.515,45.364
+Nis,Serbia,Europe,22.422,43.562
+Mahe,Seychelles,Africa,55.869,-4.458
+Freetown,Sierra Leone,Africa,-12.66,9.027
+Singapore,Singapore,Asia,104.657,1.583
+Bratislava,Slovakia,Europe,17.354,48.283
+Kosice,Slovakia,Europe,21.401,49.105
+Poprad,Slovakia,Europe,20.401,49.122
+Žilina,Slovakia,Europe,19.022,49.385
+Ljubliana,Slovenia,Europe,14.762,46.372
+Honiara,Solomon Islands,Oceania,160.091,-9.047
+Mogadishu,Somalia,Africa,45.507,2.024
+Galcaio,Somalia,Africa,47.757,7.301
+Berbera,Somalia,Africa,45.568,10.648
+Hargeisa,Somalia,Africa,44.147,9.863
+Bosaso,Somalia,Africa,49.249,11.458
+Johannesburg,South Africa,Africa,28.41,-25.566
+Cape Town,South Africa,Africa,19.002,-33.942
+Durban,South Africa,Africa,31.584,-29.951
+Mpumalanga,South Africa,Africa,31.176,-24.972
+Seoul,South Korea,Asia,126.75,37.781
+Busan,South Korea,Asia,129.563,35.299
+Cheju,South Korea,Asia,126.821,33.852
+Muan,South Korea,Asia,126.637,35.652
+Chongju,South Korea,Asia,127.831,37.194
+Taegu,South Korea,Asia,129.098,36.49
+Juba,South Sudan,Africa,32.001,5.453
+Tenerife,Spain,Europe,-16.288,28.074
+Malaga,Spain,Europe,-4.166,37.124
+Madrid,Spain,Europe,-3.278,40.822
+BarcelonaS,Spain,Europe,2.13,41.495
+Alicante,Spain,Europe,-0.264,38.47
+Las Palmas,Spain,Europe,-13.343,29.575
+Gran Canaria,Spain,Europe,-14.978,28.553
+Fuerteventura,Spain,Europe,-13.773,28.754
+Palma de Mallorca,Spain,Europe,3.212,39.922
+ValenciaS,Spain,Europe,-0.137,39.815
+Sevilla,Spain,Europe,-5.822,37.696
+Bilbao,Spain,Europe,-2.852,43.501
+Vigo,Spain,Europe,-8.378,42.386
+La Coruna,Spain,Europe,-7.963,43.503
+Murcia,Spain,Europe,-0.688,38.291
+Aviles,Spain,Europe,-5.392,43.939
+Santa Cruz De La Palma,Spain,Europe,-17.593,29.044
+Menorca,Spain,Europe,4.364,40.437
+Gerona,Spain,Europe,3.267,42.501
+Zaragoza,Spain,Europe,-0.403,42.11
+Almeria,Spain,Europe,-1.951,37.406
+Valladolid,Spain,Europe,-4.754,42.176
+Salamanca,Spain,Europe,-5.17,41.586
+Leon,Spain,Europe,-5.426,42.981
+Santander,Spain,Europe,-3.701,43.711
+SantiagoS,Spain,Europe,-8.026,43.493
+Colombo,Sri Lanka,Asia,80.473,7.301
+Khartoum,Sudan,Africa,32.921,15.982
+Malakal,Sudan,Africa,32.087,9.931
+Wau,Sudan,Africa,28.633,8.208
+Port Sudan,Sudan,Africa,37.39,19.722
+Zandery,Suriname,SouthAmerica,-54.647,5.754
+Manzini,Swaziland,Africa,31.512,-26.216
+Stockholm,Sweden,Europe,18.531,60.086
+Gothenborg,Sweden,Europe,12.466,58.104
+Umea,Sweden,Europe,20.471,64.319
+Skelleftea,Sweden,Europe,21.128,65.041
+Norrkoeping,Sweden,Europe,16.417,58.977
+Malmoe,Sweden,Europe,13.619,55.883
+Linkoeping,Sweden,Europe,16.134,58.676
+Vaxjo,Sweden,Europe,15.213,57.548
+Vasteras,Sweden,Europe,17.056,59.982
+Arvidsjaur,Sweden,Europe,19.469,65.983
+Geneva,Switzerland,Europe,6.181,46.396
+Zurich,Switzerland,Europe,8.915,47.774
+Basel-Mulhouse-Freiburg,Switzerland,Europe,7.881,47.983
+Altenrhein,Switzerland,Europe,9.934,47.808
+Bern,Switzerland,Europe,7.828,47.523
+Lugano,Switzerland,Europe,9.517,46.007
+Sion,Switzerland,Europe,7.544,46.365
+Damascus,Syria,Asia,36.857,33.684
+Aleppo,Syria,Asia,37.373,36.301
+Deire Zor,Syria,Asia,40.293,35.475
+Latakia,Syria,Asia,36.581,35.668
+Kamishly,Syria,Asia,41.318,37.034
+Taipei,Taiwan,Asia,121.388,25.129
+Kaohsiung,Taiwan,Asia,120.583,22.961
+Chingchuakang,Taiwan,Asia,121.034,24.441
+Fengnin,Taiwan,Asia,121.169,23.258
+Dushanbe,Tajikistan,Asia,69.375,38.905
+Kulyab,Tajikistan,Asia,70.332,38.636
+Khudzhand,Tajikistan,Asia,70.157,40.359
+Dar Es Salaam,Tanzania,Africa,39.337,-6.797
+Kilimanjaro,Tanzania,Africa,37.124,-3.05
+Zanzibar,Tanzania,Africa,39.374,-5.704
+Mwanza,Tanzania,Africa,33.554,-2.075
+Bangkok,Thailand,Asia,101.245,14.135
+Ko Samui,Thailand,Asia,100.103,9.912
+Phuket,Thailand,Asia,98.528,8.188
+Chiang Mai,Thailand,Asia,99.604,19.278
+Krabi,Thailand,Asia,99.647,8.159
+Songkhla,Thailand,Asia,100.654,7.555
+Lome,Togo,Africa,1.424,6.276
+Tongatapu,Tonga,Oceania,-174.583,-20.736
+Port-of-spain,Trinidad and Tobago,NorthAmerica,-60.896,10.992
+Scarborough,Trinidad and Tobago,NorthAmerica,-60.721,11.249
+Djerba,Tunisia,Africa,11.292,34.458
+Tunis,Tunisia,Africa,10.378,37.418
+Tozeur,Tunisia,Africa,8.184,34.566
+Monastir,Tunisia,Africa,11.257,36.263
+Enfidha,Tunisia,Africa,10.731,36.126
+Sfax,Tunisia,Africa,11.151,35.196
+Istanbul,Turkey,Asia,29.357,41.628
+Ankara,Turkey,Asia,33.658,40.213
+Izmir,Turkey,Asia,27.261,38.487
+Antalya,Turkey,Asia,31.334,37.497
+Hatay,Turkey,Asia,36.47,36.604
+Adana,Turkey,Asia,35.467,37.636
+Eskissehir,Turkey,Asia,30.865,40.349
+Gaziantep,Turkey,Asia,37.797,37.578
+Kayseri,Turkey,Asia,35.825,39.283
+Ashkhabad,Turkmenistan,Asia,58.601,38.644
+Providenciales,Turks and Caicos Islands,NorthAmerica,-71.777,22.289
+Funafuti,Tuvalu,Oceania,179.327,-8.209
+Entebbe,Uganda,Africa,32.739,0.07
+Kiev,Ukraine,Europe,31.491,50.575
+Odessa,Ukraine,Europe,31.127,46.711
+Simferopol,Ukraine,Europe,34.625,45.087
+Dnepropetrovsk,Ukraine,Europe,35.167,48.595
+Donetsk,Ukraine,Europe,38.232,48.122
+Lvov,Ukraine,Europe,24.593,50.354
+Kharkov,Ukraine,Europe,36.483,50.541
+Chernovtsk,Ukraine,Europe,26.634,48.432
+Nikolayev,Ukraine,Europe,32.533,47.096
+Abu Dhabi,United Arab Emirates,Asia,55.085,24.721
+Dubai,United Arab Emirates,Asia,55.607,25.421
+Sharjah,United Arab Emirates,Asia,55.861,25.547
+Al Ain,United Arab Emirates,Asia,56.015,24.436
+Ras Al Khaimah,United Arab Emirates,Asia,56.564,26.022
+London,United Kingdom,Europe,-0.103,51.795
+Manchester,United Kingdom,Europe,-1.792,53.589
+East Midlands,United Kingdom,Europe,-0.881,53.385
+Edinburgh,United Kingdom,Europe,-2.955,56.583
+NewcastleU,United Kingdom,Europe,-1.487,55.062
+Bristol,United Kingdom,Europe,-2.532,51.637
+Birmingham,United Kingdom,Europe,-1.581,52.756
+Glasgow,United Kingdom,Europe,-4.056,56.453
+Aberdeen,United Kingdom,Europe,-1.663,57.336
+Belfast,United Kingdom,Europe,-5.694,55.095
+Leeds,United Kingdom,Europe,-1.435,54.443
+Liverpool,United Kingdom,Europe,-2.75,53.556
+"Doncaster,Sheffield",United Kingdom,Europe,-0.341,53.791
+Southampton,United Kingdom,Europe,-0.929,51.583
+Norwich,United Kingdom,Europe,1.471,53.126
+Teesside,United Kingdom,Europe,-1.05,54.848
+Humberside,United Kingdom,Europe,0.081,53.957
+Cardiff,United Kingdom,Europe,-2.906,51.661
+Exeter,United Kingdom,Europe,-3.024,51.224
+Prestwick,United Kingdom,Europe,-4.312,55.849
+Bournemouth,United Kingdom,Europe,-1.738,51.3
+Southend,United Kingdom,Europe,1.159,51.952
+Golouchestershire,United Kingdom,Europe,-1.613,52.49
+Blackpool,United Kingdom,Europe,-2.382,54.286
+Inverness,United Kingdom,Europe,-3.413,57.904
+Honolulu,United States,NorthAmerica,-157.871,21.531
+Los Angeles,United States,NorthAmerica,-118.014,34.57
+New York,United States,NorthAmerica,-73.632,41.066
+Chicago,United States,NorthAmerica,-87.842,42.631
+Newark,United States,NorthAmerica,-73.615,41.154
+San Francisco,United States,NorthAmerica,-121.959,38.031
+Boston,United States,NorthAmerica,-70.342,42.607
+Washington,United States,NorthAmerica,-77.094,39.574
+Miami,United States,NorthAmerica,-79.818,26.322
+Houston,United States,NorthAmerica,-94.903,30.64
+Dallas-fort Worth,United States,NorthAmerica,-96.397,33.494
+Atlanta,United States,NorthAmerica,-84.047,34.061
+Fort Lauderdale,United States,NorthAmerica,-79.588,26.12
+Orlando,United States,NorthAmerica,-80.849,28.715
+Phoenix,United States,NorthAmerica,-111.353,33.723
+Seattle,United States,NorthAmerica,-121.849,47.748
+Detroit,United States,NorthAmerica,-82.923,42.354
+Las Vegas,United States,NorthAmerica,-114.588,36.133
+Philadelphia,United States,NorthAmerica,-74.736,40.453
+Portland,United States,NorthAmerica,-122.33,45.981
+Beaufort,United States,NorthAmerica,-80.539,32.795
+Charlotte,United States,NorthAmerica,-80.906,35.356
+West Palm Beach,United States,NorthAmerica,-79.493,27.138
+Denver,United States,NorthAmerica,-104.456,40.436
+Minneapolis,United States,NorthAmerica,-92.703,45.469
+Cincinnati,United States,NorthAmerica,-84.447,39.081
+Cleveland,United States,NorthAmerica,-81.75,41.686
+Tampa,United States,NorthAmerica,-82.223,28.625
+Sacramento,United States,NorthAmerica,-121.318,39.159
+San JoseU,United States,NorthAmerica,-121.882,37.604
+San Diego,United States,NorthAmerica,-116.65,33.222
+Raleigh-durham,United States,NorthAmerica,-78.646,36.462
+Baltimore,United States,NorthAmerica,-76.448,39.292
+San Antonio,United States,NorthAmerica,-98.117,29.889
+Milwaukee,United States,NorthAmerica,-87.828,43.578
+Salt Lake City,United States,NorthAmerica,-111.963,41.313
+Memphis,United States,NorthAmerica,-89.962,35.07
+Fresno,United States,NorthAmerica,-119.531,37.293
+Windsor Locks,United States,NorthAmerica,-72.473,42.564
+St. Louis,United States,NorthAmerica,-89.951,39.247
+Fort Myers,United States,NorthAmerica,-81.592,26.893
+Pittsburgh (pennsylva),United States,NorthAmerica,-79.722,40.819
+Kahului,United States,NorthAmerica,-156.051,21.497
+New Orleans,United States,NorthAmerica,-89.764,30.655
+Kansas City,United States,NorthAmerica,-94.524,39.496
+Kona,United States,NorthAmerica,-155.41,20.231
+Indianapolis,United States,NorthAmerica,-85.824,40.195
+Columbus,United States,NorthAmerica,-82.82,40.663
+Nashville,United States,NorthAmerica,-86.464,36.207
+Oakland,United States,NorthAmerica,-121.702,38.202
+Santa Ana,United States,NorthAmerica,-117.781,34.126
+Palm Springs,United States,NorthAmerica,-116.178,34.382
+Lihue,United States,NorthAmerica,-158.899,22.626
+Louisville,United States,NorthAmerica,-85.561,38.29
+Richmond,United States,NorthAmerica,-76.867,37.841
+Sanford,United States,NorthAmerica,-80.73,29.296
+Lansing,United States,NorthAmerica,-84.313,43.297
+Burlington,United States,NorthAmerica,-72.589,44.786
+Deering,United States,NorthAmerica,-162.61,66.116
+Block Island,United States,NorthAmerica,-71.297,41.28
+San Luis,United States,NorthAmerica,-122.77,46.285
+Jacksonville,United States,NorthAmerica,-81.48,30.823
+White Plains,United States,NorthAmerica,-73.513,41.111
+Ontario,United States,NorthAmerica,-117.336,34.093
+Brownsville,United States,NorthAmerica,-97.044,26.511
+Syracuse,United States,NorthAmerica,-75.511,43.185
+Sarasota,United States,NorthAmerica,-82.258,27.659
+Rochester,United States,NorthAmerica,-77.454,43.198
+Providence,United States,NorthAmerica,-71.034,42.22
+Harrisburg,United States,NorthAmerica,-76.606,40.322
+Grand Rapids,United States,NorthAmerica,-85.205,43.468
+Albany,United States,NorthAmerica,-73.67,43.247
+Allentown,United States,NorthAmerica,-75.069,41.086
+Montevideo,Uruguay,SouthAmerica,-55.385,-34.731
+Punta del Este,Uruguay,SouthAmerica,-54.491,-34.759
+Tashkent,Uzbekistan,Asia,69.468,41.429
+Termez,Uzbekistan,Asia,67.516,37.477
+Samarkand,Uzbekistan,Asia,67.639,40.167
+Namangan,Uzbekistan,Asia,71.927,41.641
+Khanabad,Uzbekistan,Asia,66.535,39.389
+Fergana,Uzbekistan,Asia,72.241,40.598
+Bukhara,Uzbekistan,Asia,64.805,40.291
+Andizhan,Uzbekistan,Asia,72.49,41.212
+Urgench,Uzbekistan,Asia,61.069,41.973
+Nukus,Uzbekistan,Asia,60.038,42.814
+Navoi,Uzbekistan,Asia,65.284,40.195
+Port-vila,Vanuatu,Oceania,168.532,-17.499
+Santo,Vanuatu,Oceania,167.366,-15.176
+Caracas,Venezuela,SouthAmerica,-66.985,11.005
+BarcelonaV,Venezuela,SouthAmerica,-64.482,10.178
+ValenciaV,Venezuela,SouthAmerica,-67.881,10.249
+Porlamar,Venezuela,SouthAmerica,-63.946,11.521
+Maracaibo,Venezuela,SouthAmerica,-71.547,10.93
+Paraguana,Venezuela,SouthAmerica,-69.586,12.301
+Ho Chi Minh City,Vietnam,Asia,107.086,11.364
+Hanoi,Vietnam,Asia,106.345,21.368
+Danang,Vietnam,Asia,108.332,16.073
+Nhatrang,Vietnam,Asia,109.32,12.379
+St. Thomas,Virgin Islands,NorthAmerica,-64.956,18.562
+St. Croix Island,Virgin Islands,NorthAmerica,-64.665,18.169
+Christiansted,Virgin Islands,NorthAmerica,-64.509,18.245
+Wallis,Wallis and Futuna,Oceania,-175.666,-12.731
+Dakhla,Western Sahara,Africa,-15.887,24.197
+El Aaiún,Western Sahara,Africa,-12.699,27.252
+Sanaa,Yemen,Asia,44.366,15.793
+Aden,Yemen,Asia,45.047,13.382
+Taiz,Yemen,Asia,44.231,14.143
+Mukalla,Yemen,Asia,49.625,15.104
+Hodeidah,Yemen,Asia,43.627,15.255
+Sayun Intl,Yemen,Asia,49.313,16.61
+Lusaka,Zambia,Africa,28.754,-14.885
+Livingstone,Zambia,Africa,26.371,-17.703
+Ndola,Zambia,Africa,29.108,-12.997
+Harare,Zimbabwe,Africa,31.154,-17.887
+Victoria Falls,Zimbabwe,Africa,26.398,-17.494
+Bulawayo,Zimbabwe,Africa,29.029,-19.363
