@@ -1,0 +1,87 @@
+---
+title: "Untitled"
+author: "TrinadhGupta"
+date: "Wednesday, September 30, 2015"
+output: html_document
+---
+```
+library(zoo)
+library(fBasics)
+library(lmtest)
+library(forecast)
+library(lmtest)
+```
+```{r setup, include=FALSE}
+library(zoo)
+library(fBasics)
+library(lmtest)
+library(forecast)
+library(lmtest)
+```
+
+```{r loading}
+setwd("C:/Users/TG/Documents/CSC 425/Week2 Lab")
+mydl=read.csv("oranges.csv",header=T)
+head(mydl)
+```
+
+
+```{r}
+#Converting the date format 
+ratedate=zoo(mydl$date,as.Date(mydl$date,format='%m/%d/%Y'))
+
+```
+
+```{r}
+# Plotting ACF & PACF
+acf(mydl$date)
+pacf(mydl$date)
+```
+
+```{r}
+#AR(1) model
+m1=Arima(mydl$date,order=c(1,0,0))
+coeftest(m1)
+ar(mydl$date)
+```
+
+
+```{r}
+#residual analysis - ACF Plot, Ljung box test , normality test using qq plot, roots of the polinomial
+#automated correlation function for analysis of residuals
+acf(m1$resid)
+Box.test(m1$resid,lag=4,type='Ljung-Box',fitdf=4)
+Box.test(m1$resid,lag=8,type='Ljung-Box',fitdf=4)
+Box.test(m1$resid,lag=12,type='Ljung-Box',fitdf=4)
+Box.test(m1$resid,lag=16,type='Ljung-Box',fitdf=4)
+Box.test(m1$resid,lag=20,type='Ljung-Box',fitdf=4)
+
+```
+
+```{r}
+#quantile plot
+hist(m1$resid)
+qqnorm(m1$resid)
+qqline(m1$resid)
+```
+
+```{r}
+#roots of the polinomiyal
+
+polyroot(c(1,-m1$coef[1]))
+
+m1$coef[2]*(1-m1$coef[1])
+
+```
+
+```{r}
+#forecast
+
+f=forecast.Arima(m1,h=5)
+plot(f,include=100)
+```
+
+```{r}
+```
+```{r}
+```
