@@ -1,0 +1,193 @@
+---
+title: "HW4-Final"
+author: "TrinadhGupta"
+date: "Saturday, October 17, 2015"
+output: html_document
+---
+
+```
+library(fUnitRoots)
+library(tseries)
+library(zoo)
+library(fBasics)
+library(lmtest)
+library(forecast)
+library(lmtest)
+source('backtest.R')
+```
+
+```{r loading}
+setwd("C:/Users/TG/Documents/CSC 425/Week4HW")
+mydl=read.csv("ALTSALESRAW.csv",header=T)
+head(mydl)
+sales=mydl[,2]
+```
+```{r}
+mydlts <- ts(mydl$sales, start=c(1976,1), freq=12)
+plot(mydlts, ylab = "Sales", main = "Auto & Light trucks sales in U.S")
+```
+
+```
+#The graph shows  3 major instances of low sales over the 40 years, with 2 sharp decline in sales around 1982 and 2008 , however a close observation shows that the overall mean apparently seems to remain same.
+```
+```{r, echo=FALSE}
+library(fUnitRoots)
+```
+```{r}
+acf(mydlts)
+adfTest(mydlts, lags=3, type=c("ct"))
+adfTest(mydlts, lags=5, type=c("ct"))
+
+diffvar=diff(mydlts)
+plot(diffvar)
+adfTest(diffvar, lags=3, type=c("ct"))
+adfTest(diffvar, lags=5, type=c("ct"))
+```
+```
+#Since the acf plots shows a slow decay to zero for sales, from which we can suspect a non-stationarity, which is confirmed by the Dickey Fuller test, i.e we cannot reject the null ypothesis.
+```
+```{r, echo=FALSE}
+library(forecast)
+```
+```{r }
+auto.arima(mydl$sales,max.p=5,max.q=5,stationary=F,ic=c("bic"),trace=TRUE,allowdrift=F)
+```
+```
+#The best Arima model is ARIMA(2,1,1)
+```
+```{r, echo=FALSE}
+library(lmtest)
+```
+```{r }
+m1 <- Arima(mydl$sales, order = c(2,1,1), method = 'ML')
+coeftest(m1)
+plot(m1$residuals)
+qqnorm(m1$residuals)
+qqline(m1$residuals)
+Box.test(m1$residuals,lag=6,type='Ljung-Box',fitdf=3)
+Box.test(m1$residuals,lag=12,type='Ljung-Box',fitdf=3)
+acf(m1$residuals)
+```
+
+```
+#Ljung box test shows that the hypothesis of independence cannot be rejected.Only ar2 & ma1 coeffs are significant in the ARIMA model.
+```
+
+```{r}
+m2 <- Arima(mydl$sales, order = c(2,1,1), method = 'ML', include.mean = T,fixed=c(0,NA,NA))
+coeftest(m2)
+plot(m2$residuals)
+Box.test(m2$residuals,lag=6,type='Ljung-Box',fitdf=2)
+Box.test(m2$residuals,lag=12,type='Ljung-Box',fitdf=2)
+```
+```
+#This above model have removed the ar1 parameter, which is insignificant from m1 model, but it didnt really impact the model any further
+```
+
+```{r drift}
+
+m4=Arima(mydl$sales,order=c(2,1,1),method='ML',include.drift=T,fixed=c(0,NA,NA,NA))
+f1=forecast.Arima(m4, h=10)
+plot(f1, include=50)
+```
+
+```{r, echo=FALSE}
+source('backtest.R')
+```
+```{r}
+backtest(m1,sales,398,1)
+backtest(m2,sales,398,1)
+backtest(m4,sales,398,1)
+```
+```
+#x(t)=-0.1963X(t-1)-0.4920a(a(t-1))+a(t) -- The t in this equation is suffix, unable to format in this file
+
+#Drift has no impact in the above scenario and both with and with out drift the trend remains the same and the model appears to be linear. 
+#After comparing the backtest results, the errors are not really different so we can say that the drift has not impacted really. 
+```
+
+```
+# ************************Problem-2***************
+
+
+```{r }
+mydl2=read.csv("sugar.csv",header=T)
+head(mydl2)
+price=mydl2[,2]
+```
+```{r}
+mydlts1 <- ts(price, start=c(2000,9),end=c(2015,8), freq=12)
+plot(mydlts1, ylab = "Price", main = "Sugar Prices")
+acf(mydlts1,lag.max=20)
+diffvar1=diff(mydlts1)
+plot(diffvar1)
+acf(diffvar1)
+pacf(diffvar1)
+```
+```
+#Since the acf plots shows a slow decay to zero, from which we can suspect a non-stationarity, which is confirmed by the Dickey Fuller test for sugar prices below, i.e we cannot reject the null ypothesis.
+```
+
+```{r, echo=FALSE}
+library(fUnitRoots)
+```
+```{r}
+adfTest(mydlts1, lags=3, type=c("ct"))
+adfTest(mydlts1, lags=5, type=c("ct"))
+adfTest(diffvar1, lags=3, type=c("ct"))
+adfTest(diffvar1, lags=5, type=c("ct"))
+```
+
+```
+
+# when we look at the first difference DF test,the results seems to be pretty stationary,
+```
+```{r, echo=FALSE}
+library(forecast)
+```
+```{r }
+auto.arima(price,max.p=5,max.q=5,stationary=F,ic=c("bic"),trace=TRUE,allowdrift=F)
+```
+```
+#The best Arima model is ARIMA(1,1,0)
+```
+```{r, echo=FALSE}
+library(lmtest)
+```
+```{r }
+m11 <- Arima(price, order = c(1,1,0), method = 'ML')
+coeftest(m11)
+plot(m11$residuals)
+qqnorm(m11$residuals)
+qqline(m11$residuals)
+Box.test(m11$residuals,lag=6,type='Ljung-Box',fitdf=1)
+Box.test(m11$residuals,lag=12,type='Ljung-Box',fitdf=1)
+acf(m11$residuals)
+```
+
+```
+#Ljung box test shows that we can reject null hypothesis .Only ma1 coeffs are significant in the ARIMA model and the model choosen has a pretty least score so we dont want to chose any further
+```
+
+
+```{r}
+m41=Arima(price,order=c(0,1,1),method='ML',include.drift=T)
+f11=forecast.Arima(m41, h=10)
+plot(f11, include=50)
+```
+
+```{r, echo=FALSE}
+source('backtest.R')
+```
+```{r}
+backtest(m11,price,153,1)
+backtest(m41,price,153,1)
+coeftest(m41)
+coeftest(m11)
+```
+```
+#x(t)=0.003+0.27x(t-1) -- The t in this equation is suffix, unable to format in this file
+
+#Drift has no impact in the above scenario and both with and with out drift the trend remains the same and the model appears to be linear. 
+#After comparing the backtest results, the errors are not really different so we can say that the drift has not impacted really. 
+```
