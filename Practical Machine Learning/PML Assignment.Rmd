@@ -1,0 +1,74 @@
+---
+title: "PML Assignment"
+author: "TrinadhGupta"
+date: "Tuesday, January 12, 2016"
+output: html_document
+---
+
+```{r setup}
+library("caret")
+library(corrplot)
+```
+
+
+```{r loading}
+setwd("C:/Users/TG/Documents/CourseraJH/")
+training<-read.csv("pml-training.csv",header = TRUE, na.strings = c("NA", ""))
+testing<-read.csv("pml-testing.csv", header = TRUE, na.strings = c("NA", ""))
+
+```
+
+```{r }
+# Preprocessing - Removing NA's & feature selection
+
+#1) Removing empty & NA Columns
+csums <- colSums(is.na(training))
+csums_log <- (csums == 0)
+training_fewer_cols <- training[, (colSums(is.na(training)) == 0)]
+testing <- testing[, (colSums(is.na(training)) == 0)]
+
+#2) Removing unncessary columns such as name, timestamp, new window
+
+dcols <- grepl("X|user_name|timestamp|new_window", colnames(training_fewer_cols))
+training_fewer_cols <- training_fewer_cols[, !dcols]
+testing_final <- testing[, !dcols]
+
+#3) Split the training data in training and validation set
+inTrain = createDataPartition(y = training_fewer_cols$classe, p = 0.7,list = FALSE)
+Strain = training_fewer_cols[inTrain, ]
+sval = training_fewer_cols[-inTrain, ]
+
+#4) Plot correlation
+corMat <- cor(Strain[, -54])
+corrplot(corMat, order = "FPC", method = "color", type = "lower", tl.cex = 0.8, 
+    tl.col = rgb(0, 0, 0))
+```
+
+```{r }
+# We are using a stackedup machine learning technique where we are going to compress the data using PCA and then perform random forest on top of it.
+pca_train <- preProcess(Strain[, -54], method = "pca", thresh = 0.99)
+trainPCA <- predict(pca_train, Strain[, -54])
+valPCA <- predict(pca_train, sval[, -54])
+modelFit <- train(Strain$classe ~ ., method = "rf", data = trainPCA, trControl = trainControl(method = "cv", number = 4), importance = TRUE)
+
+# Cross validation and confusion matrix 
+pred_valid_rf <- predict(modelFit, valPCA)
+mat <- confusionMatrix(sval$classe, pred_valid_rf)
+mat$table
+
+# Accruacy of the model
+accur <- postResample(sval$classe, pred_valid_rf)
+model_accuracy <- accur[[1]]
+model_accuracy
+
+out_of_sample_error <- 1 - model_accuracy
+out_of_sample_error
+
+
+# Predicted results on Test Set
+
+testPCA <- predict(pca_train, testing_final[, -54])
+pred_final <- predict(modelFit, testPCA)
+pred_final
+```
+
